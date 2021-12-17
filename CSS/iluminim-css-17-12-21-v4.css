@@ -1914,6 +1914,17 @@
        .pagina-categoria.pagina-personalizada-todos-departamentos div#corpo {
            margin-top: 5px;
        }
+
+       
+        .pagina-categoria.pagina-personalizada-todos-departamentos .conteudo.span9 h1.titulo.cor-secundaria,
+        .pagina-categoria.pagina-personalizada-todos-departamentos .conteudo.span9 .ordenar-listagem.topo.borda-alpha, 
+        .pagina-categoria.pagina-personalizada-todos-departamentos .conteudo.span9 div#listagemProdutos {
+            display: none;
+        }
+
+        .pagina-categoria.pagina-personalizada-todos-departamentos div#barraNewsletter .componente.newsletter.borda-principal {
+            display: block !important;
+        }
        
        div#allDepartment .texto-dpt.span12 {
            margin: 60px 0;
@@ -3253,7 +3264,10 @@
             }
 
             .pagina-categoria .listagem-item {
-                padding: 25px 5px 42px 5px !important;
+                padding: 25px 5px 60px 5px !important;
+            }
+            .pagina-categoria.usuario-logado .listagem-item .acoes-produto a.botao.botao-comprar.principal {
+                width: 100%;
             }
     
       }
@@ -17397,6 +17411,7 @@
  
              #cabecalho .conteudo-lojas-fisicas-iluminim.aba-pontos-de-retirada {
                  height: auto;
+                 text-decoration: none;
              }
  
              #cabecalho .conteudo-lojas-fisicas-iluminim .item-loja-fisica:not(:first-child) {
@@ -18966,6 +18981,7 @@
                margin-top: 12px !important;
            }
 
+            .listagem-item  .acoes-produto-responsiva.visible-phone,
             .listagem-item .acoes-produto {
                 display: none !important;
             }

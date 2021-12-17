@@ -336,12 +336,6 @@ var PaginaCategoria = {
                               nome: 'Luminárias LED'
                            },
                            {
-                              url: '/oferta-da-semana-kits-led?sort=mais_vendidos',
-                              //imagem: 'https://cdn.awsli.com.br/257/257163/arquivos/banner-oferta-da-semana-kit-27-10-2020.png', //VOLTAR APOS BLACK
-                              imagem: 'https://cdn.awsli.com.br/930/930730/arquivos/Banner_vertical_KITS_led_friday_6.0-22-10-21.png',
-                              nome: 'Kits LED'
-                           },
-                           {
                               url: '/oferta-da-semana-spot-led?sort=mais_vendidos',
                               //imagem: 'https://cdn.awsli.com.br/257/257163/arquivos/banner%20odm%20spots%20led%2021-10-2020.png', //VOLTAR APOS BLACK
                               imagem: 'https://cdn.awsli.com.br/930/930730/arquivos/Banner_vertical_SPOTS_led_friday_6.0-22-10-21.png',

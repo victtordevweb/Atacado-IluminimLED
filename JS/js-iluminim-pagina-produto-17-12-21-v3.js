@@ -534,7 +534,7 @@ var PaginaProduto = {
 
       $('.produto .row-fluid > .span6:first-child').append(`
          <div class="cronometro-compre-antes-que-acabe">
-               <div class="conteudo-titulo-cronometro">LED FRIDAY: Última chance!</div>
+               <div class="conteudo-titulo-cronometro">COMPRE ANTES QUE ACABE!</div>
                <div class="conteudo-cronometro">
                   <div class="conteudo-icone-cronometro">
                      ${ILUMINIM_UTILS.icones.relogio_2}
@@ -687,7 +687,7 @@ var PaginaProduto = {
       `);
 
       $('#descricao').prepend(`
-         <div class="descrica-tarja" style="display: none;">
+         <div class="descrica-tarja">
             <div class="descricao-tarja-titulo">
                COMPRE <span>AGORA</span> EM ATÉ <span>4X SEM JUROS</span>
             </div>
@@ -3475,7 +3475,6 @@ var PaginaProduto = {
              
              if(this.produtos.includes(this.obterDadosProdutosAtual().sku)){
                  
-                 console.log('Continuar comprando iluminim personalizado aplicado :)');
                  this.renderizarDadosProdutoAcessado();
                  this.ajustarBotaoComprar();
                  
@@ -3676,7 +3675,7 @@ var PaginaProduto = {
          //this.alertaPessoasInteressadas();
          this.botaoNaoSeiMeuCEP();
          this.autoPreencherCEP();
-         this.modalContinuarComprando();
+         //this.modalContinuarComprando();
          this.adaptacoesProdutoFlutuante();
 
          this.criarLocaisDeAplicacoesDinamicas(); //MANTER NO FINAL

@@ -3812,7 +3812,7 @@ var TodasAsPaginas = {
 
       this.validarUsuarioLogado();
 
-      //this.removeLocalStoragesAntigos();
+      this.removeLocalStoragesAntigos();
 
       ILUMINIM_UTILS.ajusteDescontoListagem();
       ILUMINIM_UTILS.adicionarListaDesejosListagem();
