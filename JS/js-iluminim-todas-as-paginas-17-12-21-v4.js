@@ -3844,7 +3844,7 @@ var TodasAsPaginas = {
       this.ajusteModais();
       this.stepCarrinho();
       this.carouselCustomListagem();
-      this.adicionarClassFreteGratisListagem();
+      //this.adicionarClassFreteGratisListagem();
       this.adicionarWattsETamanhoNasLampadas();
       this.oucaDica();
       this.vejaVideo();
