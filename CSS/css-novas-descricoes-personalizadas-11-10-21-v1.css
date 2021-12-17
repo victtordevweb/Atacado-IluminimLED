@@ -1,0 +1,1303 @@
+/* DESCRIÇÃO LUMINÁRIA PLAFON LED */
+@media screen {
+    .descricao-plafon-led .descricao-bloco.descricao-bloco-1 h1, .descricao-plafon-led .descricao-bloco.descricao-bloco-1 h2{
+        text-align: center;
+        color: #972728;
+        font-size: 65px;
+        letter-spacing: -2px;
+        margin: 70px 0 60px 0;
+        line-height: 65px;
+    }
+
+    .descricao-plafon-led .descricao-bloco {
+        overflow: hidden;
+        position: relative;
+    }
+
+    .descricao-plafon-led .descricao-bloco.descricao-bloco-2 {
+        background: #a00000;
+        padding: 60px 40px;
+    }
+
+    .descricao-plafon-led .descricao-bloco.descricao-bloco-2 ul li {
+        background: #d70000;
+        width: 100%;
+        height: 310px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+    }
+
+    .descricao-plafon-led .descricao-bloco.descricao-bloco-2 ul li img {
+        max-height: 200px;
+        max-width: 250px;
+        filter: drop-shadow(0px 0px 25px rgb(0 0 0 / 50%));
+    }
+
+    .descricao-plafon-led .descricao-bloco.descricao-bloco-2 ul li img[src*="bloco"] {
+        /* CSS TEMPORÁRIO */
+        max-height: 280px;
+        max-width: 290px;
+    }
+
+    .descricao-plafon-led .descricao-bloco.descricao-bloco-2 ul li:nth-child(2) {
+        box-shadow: 1px 0px 70px 0px rgb(0 0 0 / 50%);
+        z-index: 1;
+    }
+
+    .descricao-plafon-led .descricao-bloco ul {
+        display: flex;
+        list-style-type: none !important;
+        margin: 0;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .descricao-plafon-led .descricao-bloco ul:after {
+        display: none;
+    }
+
+    .descricao-plafon-led .descricao-bloco.descricao-bloco-3 {
+        background: rgb(201 201 201);
+        box-shadow: 0px 2px 6px 0px rgb(0 0 0 / 36%);
+        z-index: 1;
+    }
+
+    .descricao-plafon-led .descricao-bloco ul li {
+        position: relative;
+    }
+
+    .descricao-plafon-led .descricao-bloco.descricao-bloco-3 ul li:nth-child(2) {
+        box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 50%);
+        z-index: 1;
+    }
+
+    .descricao-plafon-led .descricao-bloco.descricao-bloco-7, .descricao-plafon-led .descricao-bloco.descricao-bloco-4 {
+        background: #f00;
+        padding: 70px 0;
+    }
+
+    .descricao-plafon-led .descricao-bloco.descricao-bloco-7 .descricao-bloco-conteudo, .descricao-plafon-led .descricao-bloco.descricao-bloco-4 .descricao-bloco-conteudo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .descricao-plafon-led .descricao-bloco.descricao-bloco-7 .descricao-bloco-conteudo .conteudo-texto-2, .descricao-plafon-led .descricao-bloco.descricao-bloco-4 .descricao-bloco-conteudo .conteudo-texto-2 {
+        width: 400px;
+        font-size: 18px;
+        line-height: 25px;
+        border-left: 3px solid #fff;
+        padding-left: 16px;
+        font-weight: 300;
+        margin-left: 200px;
+        display: flex;
+        align-items: center;
+    }
+
+    .descricao-plafon-led .descricao-bloco.descricao-bloco-7 .descricao-bloco-conteudo *, .descricao-plafon-led .descricao-bloco.descricao-bloco-4 .descricao-bloco-conteudo * {
+        color: #fff;
+    }
+
+    .descricao-plafon-led .descricao-bloco.descricao-bloco-7 .descricao-bloco-conteudo .conteudo-texto-1, .descricao-plafon-led .descricao-bloco.descricao-bloco-4 .descricao-bloco-conteudo .conteudo-texto-1 {
+        text-transform: uppercase;
+    }
+
+    .descricao-plafon-led .descricao-bloco.descricao-bloco-7 .descricao-bloco-conteudo .conteudo-texto-1 h2, .descricao-plafon-led .descricao-bloco.descricao-bloco-4 .descricao-bloco-conteudo .conteudo-texto-1 h2, .descricao-plafon-led .descricao-bloco.descricao-bloco-7 .descricao-bloco-conteudo .conteudo-texto-1 strong, .descricao-plafon-led .descricao-bloco.descricao-bloco-4 .descricao-bloco-conteudo .conteudo-texto-1 strong {
+        font-size: 72px;
+        letter-spacing: -4px;
+        font-weight: 800;
+        margin: 15px 0 15px 0;
+        line-height: 40px;
+        display: block;
+    }
+
+    .descricao-plafon-led .descricao-bloco.descricao-bloco-7 .descricao-bloco-conteudo .conteudo-texto-1 div, .descricao-plafon-led .descricao-bloco.descricao-bloco-4 .descricao-bloco-conteudo .conteudo-texto-1 div {
+        font-size: 23px;
+        font-weight: 300;
+        margin: -1px 0 0 0;
+        letter-spacing: -1px;
+    }
+
+    .descricao-plafon-led .descricao-bloco.descricao-bloco-6 {
+        padding: 80px 0px;
+    }
+
+    .descricao-plafon-led .descricao-bloco.descricao-bloco-6 li {
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .descricao-plafon-led .descricao-bloco.descricao-bloco-6 li span {
+        display: block;
+        text-transform: uppercase;
+        font-size: 16px !important;
+        font-weight: 100;
+        color: #000;
+        letter-spacing: -1px;
+    }
+
+    .descricao-plafon-led .descricao-bloco.descricao-bloco-6 * {
+        text-align: center;
+    }
+
+    .descricao-plafon-led .descricao-bloco.descricao-bloco-6 ul {
+        padding: 0 150px;
+    }
+
+    .descricao-bloco.descricao-bloco-6 h3 {
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: -1.5px;
+        color: #000;
+        margin: 0;
+        font-size: 31.5px;
+        display: block;
+    }
+
+    .descricao-plafon-led .descricao-bloco.descricao-bloco-6 h2, .descricao-plafon-led .descricao-bloco.descricao-bloco-6 strong {
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: -1.5px;
+        color: #000;
+        margin: 0 0 40px 0;
+        font-size: 31.5px;
+        display: block;
+    }
+
+    .descricao-plafon-led .descricao-bloco.descricao-bloco-6 li img {
+        transition: all 0.3s;
+    }
+
+    .descricao-plafon-led .descricao-bloco.descricao-bloco-6 li div:first-child {
+        margin: 0 0 10px 0;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .descricao-plafon-led .descricao-bloco.descricao-bloco-6 li:hover img {
+        transform: scale(1.1);
+    }
+
+    .descricao-plafon-led .descricao-bloco.descricao-bloco-8 {
+        text-align: center;
+        padding: 80px 0 60px 0;
+    }
+
+    div#descricao-bloco-video {
+        padding: 0px 0px 60px 0;
+        background: #f00;
+    }
+
+    div#descricao-bloco-video iframe {
+        width: 940px;
+        height: 520px;
+        margin: 0 auto;
+        display: table;
+        box-shadow: 0px 0px 38px 0px rgb(0 0 0 / 40%);
+    }
+}
+
+/* DESCRICAO ARANDELA LED */
+@media screen {
+    @media (min-width: 767px) {
+
+        .descricao-arandela-led { /* OCULTANDO A DESCRIÇÃO ANTIGA. */
+            display: none!important;
+        }
+
+        .descricao-luminaria-arandela-led h2 {
+            font-size: 45px;
+            letter-spacing: -3px;
+            color: #bc0000;
+            padding: 0 150px;
+            line-height: 55px;
+        }
+
+        .descricao-luminaria-arandela-led strong {
+            font-size: 45px;
+            letter-spacing: -2.5px;
+            color: #bc0000;
+            line-height: 50px;
+            display: block;
+        }
+
+        .descricao-luminaria-arandela-led .descricao-bloco.descricao-bloco-1 {
+            text-align: center;
+        }
+
+        .descricao-luminaria-arandela-led .descricao-texto-simples {
+            font-size: 17px !important;
+            color: #363636;
+            letter-spacing: -0.3px;
+            line-height: 28px;
+        }
+
+        .descricao-luminaria-arandela-led .descricao-bloco.descricao-bloco-1 img {
+            max-height: 550px;
+            max-width: 550px;
+        }
+
+        .descricao-luminaria-arandela-led .descricao-imagem-produto {
+            margin: 70px 0 50px 0;
+        }
+
+        .descricao-luminaria-arandela-led .descricao-bloco.descricao-bloco-1 .descricao-bloco-conteudo strong {
+            margin: 0 0 60px 0;
+            padding: 0 210px;
+        }
+
+        .descricao-luminaria-arandela-led .descricao-bloco.descricao-bloco-2 {
+            text-align: center;
+            margin: 0;
+        }
+
+        .descricao-luminaria-arandela-led .descricao-bloco.descricao-bloco-2 .descricao-imagens-ambiente {
+            display: flex;
+            justify-content: center;
+            margin: 0 0 40px 0;
+        }
+
+        .descricao-luminaria-arandela-led .descricao-bloco.descricao-bloco-2 strong {
+            margin: 60px 0 65px 0;
+            text-align: center;
+            padding: 0 210px;
+        }
+
+        .descricao-luminaria-arandela-led .descricao-bloco.descricao-bloco-2 .descricao-imagens-ambiente div {
+            margin: 0 6px;
+        }
+
+        .descricao-luminaria-arandela-led .descricao-bloco.descricao-bloco-2 .descricao-texto-simples {
+            margin-top: 22px;
+            padding: 0 120px;
+        }
+
+        .descricao-luminaria-arandela-led .descricao-bloco.descricao-bloco-3 {
+            margin: 0 0 110px 0;
+            padding: 0 120px;
+        }
+
+        .descricao-luminaria-arandela-led .descricao-bloco.descricao-bloco-3 .descricao-bloco-conteudo > div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 80px;
+        }
+
+        .descricao-luminaria-arandela-led .descricao-bloco.descricao-bloco-3 .descricao-bloco-conteudo > div strong {
+            margin-bottom: 20px !important;
+        }
+
+        .descricao-luminaria-arandela-led .descricao-bloco.descricao-bloco-4 {
+            text-align: center;
+        }
+
+        .descricao-luminaria-arandela-led .descricao-bloco.descricao-bloco-4 strong {
+            margin: 20px 0 50px 0;
+            font-size: 30px;
+            letter-spacing: -1px;
+            font-weight: bold;
+        }
+
+        .descricao-luminaria-arandela-led .descricao-bloco.descricao-bloco-4 h3 {
+            margin: 130px 0 0 0;
+            font-size: 35px;
+            letter-spacing: -1.5px;
+            color: #bc0000;
+            font-weight: bold;
+            padding: 0 150px;
+        }
+
+        .descricao-luminaria-arandela-led {
+            margin: 90px 0 50px 0;
+        }
+
+        .descricao-luminaria-arandela-led .descricao-bloco.descricao-bloco-3 .descricao-bloco-3-textos {
+            width: 350px;
+        }
+
+        .descricao-luminaria-arandela-led .descricao-bloco.descricao-bloco-3 .descricao-bloco-3-imagem {
+            width: 440px;
+            text-align: center;
+        }
+
+        .descricao-luminaria-arandela-led .descricao-bloco.descricao-bloco-3 .descricao-bloco-3-imagem:last-child {
+            text-align: right;
+        }
+
+        .descricao-luminaria-arandela-led .descricao-bloco.descricao-bloco-3 img {
+            max-width: 320px;
+            max-height: 320px;
+        }
+
+        .descricao-luminaria-arandela-led .descricao-bloco.descricao-bloco-3 .descricao-bloco-3-imagem:first-child {
+            text-align: left;
+        }
+
+        .descricao-luminaria-arandela-led .descricao-carousel-imagens .owl-item {
+            float: left;
+        }
+
+        .descricao-luminaria-arandela-led .descricao-bloco.descricao-bloco-4 .descricao-carousel-imagens {
+            width: 1000px;
+            margin: 0 auto;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .descricao-luminaria-arandela-led .descricao-bloco.descricao-bloco-4 .descricao-carousel-imagens .owl-nav {
+            display: flex;
+            position: absolute;
+            top: calc(50% - 54px);
+            justify-content: space-between;
+            width: 100%;
+            height: 0;
+            padding: 0 0px;
+            box-sizing: border-box;
+        }
+
+        .descricao-luminaria-arandela-led .descricao-bloco.descricao-bloco-4 .descricao-carousel-imagens .owl-nav > * {
+            display: block;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .descricao-luminaria-arandela-led .descricao-bloco.descricao-bloco-4 .descricao-carousel-imagens .owl-nav img {
+            transform: scale(0.5);
+        }
+
+        .descricao-luminaria-arandela-led .descricao-bloco.descricao-bloco-4 .descricao-carousel-imagens .owl-nav > *:hover {
+            opacity: 0.7;
+        }
+
+        .descricao-luminaria-arandela-led .descricao-carousel-imagens .owl-nav > *.disabled {
+            opacity: 0 !important;
+        }
+
+    }
+}
+
+/* DESCRIÇÃO LUMINÁRIA PENDENTE */
+@media screen {
+    @media (min-width: 767px) {
+        .descricao-luminaria-pendente strong {
+            font-size: 48px;
+            letter-spacing: -2.5px;
+            color: #c60000;
+            line-height: 50px;
+            text-align: center;
+            display: block;
+            margin: 90px 0 20px 0;
+        }
+
+        .descricao-luminaria-pendente .descricao-texto-simples {
+            font-size: 18px !important;
+            color: #363636;
+            letter-spacing: -0.3px;
+            line-height: 25px;
+            text-align: center;
+            padding: 0 220px;
+            margin: 0 0 90px 0;
+        }
+
+        .descricao-luminaria-pendente .descricao-bloco-1 {
+            margin: 60px 0 0 0;
+        }
+
+        .descricao-luminaria-pendente .descricao-bloco-1 .descricao-bloco-conteudo {
+            text-align: center;
+            position: relative;
+        }
+
+        .descricao-luminaria-pendente .descricao-bloco-1 .descricao-bloco-conteudo h2 {
+            text-transform: uppercase;
+            font-size: 42px;
+            letter-spacing: -2.5px;
+            font-weight: 900;
+            color: #c60000;
+            text-align: center;
+            margin: 80px 0 100px 0px;
+            line-height: 50px;
+        }
+
+        .descricao-luminaria-pendente .descricao-bloco.descricao-bloco-8 h2 {
+            font-weight: 300;
+            text-transform: uppercase;
+            letter-spacing: -1px;
+            color: #000;
+            font-size: 35px;
+        }
+
+        .descricao-luminaria-pendente .descricao-bloco.descricao-bloco-8 ul {
+            display: flex;
+            list-style-type: none !important;
+            margin: 0;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 200px 0 200px;
+        }
+
+        .descricao-luminaria-pendente .descricao-bloco.descricao-bloco-8 li {
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .descricao-luminaria-pendente .descricao-bloco.descricao-bloco-8 li span {
+            display: block;
+            text-transform: uppercase;
+            font-size: 16px !important;
+            font-weight: 100;
+            color: #000;
+            letter-spacing: -1px;
+        }
+
+        .descricao-luminaria-pendente .descricao-bloco.descricao-bloco-8 li div:first-child {
+            margin: 0 0 10px 0;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .descricao-luminaria-pendente .descricao-bloco.descricao-bloco-8 ul:after {
+            display: none;
+        }
+
+        .descricao-luminaria-pendente .descricao-bloco.descricao-bloco-8 {
+            margin-bottom: 70px;
+        }
+
+        .descricao-luminaria-pendente .descricao-bloco.descricao-bloco-8 li img {
+            transition: all 0.3s;
+        }
+
+        .descricao-luminaria-pendente .descricao-bloco.descricao-bloco-8 li:hover img {
+            transform: scale(1.1);
+        }
+
+        .descricao-luminaria-pendente .descricao-bloco.descricao-bloco-8 h3, 
+        .descricao-luminaria-pendente .descricao-bloco.descricao-bloco-8 strong {
+            font-weight: 300;
+            text-transform: uppercase;
+            letter-spacing: -1px;
+            color: #000;
+            font-size: 35px;
+            text-align: center;
+            margin: 100px 0 5px 0;
+        }
+
+        .descricao-luminaria-pendente .descricao-bloco.descricao-bloco-8 strong {
+            margin: 0 0 15px 0;
+        }
+    }
+}
+
+/* DESCRIÇÃO LUMINÁRIA LUSTRE LED */
+@media screen {
+    @media (min-width: 767px) {
+        .descricao-luminaria-lustre strong {
+            font-size: 50px;
+            letter-spacing: -2.5px;
+            color: #c60000;
+            line-height: 55px;
+            text-align: center;
+            margin: 100px 0 20px 0;
+            display: block;
+        }
+
+        .descricao-luminaria-lustre .descricao-texto-simples {
+            font-size: 18px !important;
+            color: #363636;
+            letter-spacing: -0.3px;
+            line-height: 25px;
+            text-align: center;
+            padding: 0 220px;
+            margin: 0 0 100px 0;
+        }
+
+        .descricao-luminaria-lustre .descricao-bloco-1 .descricao-bloco-conteudo h2 {
+            text-transform: uppercase;
+            font-size: 42px;
+            letter-spacing: -2.5px;
+            font-weight: 900;
+            color: #c60000;
+            text-align: center;
+            margin: 80px 0 100px 0px;
+            line-height: 50px;
+        }
+
+        .descricao-luminaria-lustre .descricao-bloco-1 .descricao-bloco-conteudo .descricao-imagem-produto {
+            text-align: center;
+        }
+
+        .descricao-luminaria-lustre .descricao-bloco.descricao-bloco-8 h3, .descricao-luminaria-lustre .descricao-bloco.descricao-bloco-8 strong {
+            font-weight: 300;
+            text-transform: uppercase;
+            letter-spacing: -1px;
+            color: #000;
+            font-size: 35px;
+            text-align: center;
+            margin: 100px 0 5px 0;
+        }
+
+        .descricao-luminaria-lustre .descricao-bloco.descricao-bloco-8 ul {
+            display: flex;
+            list-style-type: none !important;
+            margin: 0;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 80px 0 80px;
+        }
+
+        .descricao-luminaria-lustre .descricao-bloco.descricao-bloco-8 li {
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .descricao-luminaria-lustre .descricao-bloco.descricao-bloco-8 li span {
+            display: block;
+            text-transform: uppercase;
+            font-size: 16px !important;
+            font-weight: 100;
+            color: #000;
+            letter-spacing: -1px;
+        }
+
+        .descricao-luminaria-lustre .descricao-bloco.descricao-bloco-8 li div:first-child {
+            margin: 0 0 10px 0;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .descricao-luminaria-lustre .descricao-bloco.descricao-bloco-8 ul:after {
+            display: none;
+        }
+
+        .descricao-luminaria-lustre .descricao-bloco.descricao-bloco-8 {
+            margin-bottom: 90px;
+        }
+
+        .descricao-luminaria-lustre .descricao-bloco.descricao-bloco-8 strong {
+            margin: 0 0 15px 0;
+        }
+
+        .descricao-luminaria-lustre .descricao-bloco.descricao-bloco-8 li img {
+            transition: all 0.3s;
+        }
+
+        .descricao-luminaria-lustre .descricao-bloco.descricao-bloco-8 li:hover img {
+            transform: scale(1.1);
+        }
+
+        .descricao-luminaria-lustre .descricao-bloco.descricao-bloco-7 .descricao-bloco-conteudo {
+            position: relative;
+        }
+
+        .descricao-luminaria-lustre .descricao-bloco.descricao-bloco-7 .descricao-bloco-conteudo .texto-bloco-7 {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            background: rgb(255 0 0 / 70%);
+            font-size: 38px !important;
+            width: 850px;
+            color: #fff;
+            letter-spacing: -2.5px;
+            padding: 40px 60px 40px 120px;
+            box-sizing: border-box;
+            line-height: 50px;
+            margin: 0 !important;
+        }
+
+        .descricao-luminaria-lustre .descricao-bloco.descricao-bloco-7 .descricao-bloco-conteudo .texto-bloco-7:before {
+            content: "";
+            width: 10px;
+            height: 72%;
+            display: block;
+            background: #fff;
+            position: absolute;
+            left: 60px;
+            border-radius: 2px;
+            top: 52px;
+        }
+
+        .descricao-luminaria-lustre .descricao-bloco-2 strong {
+            padding: 0 300px;
+        }
+
+        .descricao-luminaria-lustre .descricao-bloco-6 strong {
+            padding: 0 350px;
+        }
+    }
+}
+
+/* DESCRIÇÃO LUMINÁRIA DE EMERGÊNCIA */
+@media screen {
+    @media (min-width: 767px){
+        
+        .descricao-luminaria-emergencia h2 {
+            font-size: 60px;
+            letter-spacing: -4px;
+            color: #bc0000;
+            padding: 0 150px;
+            line-height: 70px;
+            text-transform: uppercase;
+            font-weight: 900;
+        }
+        
+        .descricao-luminaria-emergencia strong {
+            font-size: 48px !important;
+            color: #bc0000;
+            line-height: 50px;
+            display: block;
+        }
+        
+        .descricao-luminaria-emergencia .descricao-bloco.descricao-bloco-1 {
+            text-align: center;
+        }
+        
+        .descricao-luminaria-emergencia .descricao-texto-simples {
+            font-size: 18px !important;
+            color: #363636;
+            letter-spacing: -0.3px;
+            line-height: 25px;
+        }
+        
+        .descricao-luminaria-emergencia .descricao-bloco.descricao-bloco-1 img {
+            max-height: 700px;
+            max-width: 700px;
+        }
+        
+        .descricao-luminaria-emergencia .descricao-imagem-produto {
+            margin: 200px 0 200px 0;
+        }
+        
+        .descricao-luminaria-emergencia .descricao-bloco.descricao-bloco-1 .descricao-bloco-conteudo strong {
+            margin: 0 0 60px 0;
+            padding: 0 210px;
+        }
+        
+        .descricao-luminaria-emergencia .descricao-bloco.descricao-bloco-2 {
+            text-align: center;
+            margin: 0;
+        }
+        
+        .descricao-luminaria-emergencia .descricao-bloco.descricao-bloco-2 .descricao-imagens-ambiente {
+            display: flex;
+            justify-content: center;
+            margin: 0 0 40px 0;
+        }
+        
+        .descricao-luminaria-emergencia .descricao-bloco.descricao-bloco-2 strong {
+            margin: 60px 0 40px 0;
+            text-align: center;
+            padding: 0 210px;
+        }
+        
+        .descricao-luminaria-emergencia .descricao-bloco.descricao-bloco-2 .descricao-imagens-ambiente div {
+            margin: 0 6px;
+        }
+        
+        .descricao-luminaria-emergencia .descricao-bloco.descricao-bloco-2 .descricao-texto-simples {
+            margin-top: 22px;
+            padding: 0 120px;
+        }
+        
+        .descricao-luminaria-emergencia .descricao-bloco.descricao-bloco-3, .descricao-luminaria-emergencia .descricao-bloco.descricao-bloco-5 {
+            margin: 0 0 110px 0;
+            padding: 0 60px;
+        }
+        
+        .descricao-luminaria-emergencia .descricao-bloco.descricao-bloco-3 .descricao-bloco-conteudo > div, .descricao-luminaria-emergencia .descricao-bloco.descricao-bloco-5 .descricao-bloco-conteudo > div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 80px;
+            justify-content: space-between;
+        }
+        
+        .descricao-luminaria-emergencia .descricao-bloco.descricao-bloco-3 .descricao-bloco-conteudo > div strong, .descricao-luminaria-emergencia .descricao-bloco.descricao-bloco-5 .descricao-bloco-conteudo > div strong {
+            margin-bottom: 20px !important;
+        }
+        
+        .descricao-luminaria-emergencia .descricao-bloco.descricao-bloco-4 {
+            text-align: center;
+            padding: 0 160px;
+            margin: 0 0 130px 0;
+        }
+        
+        .descricao-luminaria-emergencia .descricao-bloco.descricao-bloco-4 strong {
+            margin: 0px 0 20px 0;
+            letter-spacing: -2px;
+            font-weight: bold;
+        }
+        
+        .descricao-luminaria-emergencia .descricao-bloco.descricao-bloco-4 h3 {
+            margin: 130px 0 0 0;
+            font-size: 35px;
+            letter-spacing: -1.5px;
+            color: #bc0000;
+            font-weight: bold;
+            padding: 0 150px;
+        }
+        
+        .descricao-luminaria-emergencia {
+            margin: 90px 0 50px 0;
+        }
+        
+        .descricao-luminaria-emergencia .descricao-bloco.descricao-bloco-3 .descricao-bloco-3-textos, .descricao-luminaria-emergencia .descricao-bloco.descricao-bloco-5 .descricao-bloco-5-textos {
+            width: 450px;
+        }
+        
+        .descricao-luminaria-emergencia .descricao-bloco.descricao-bloco-3 .descricao-bloco-3-imagem, .descricao-luminaria-emergencia .descricao-bloco.descricao-bloco-5 .descricao-bloco-5-imagem {
+            width: 500px;
+            text-align: center;
+        }
+        
+        .descricao-luminaria-emergencia .descricao-bloco.descricao-bloco-3 .descricao-bloco-3-imagem:last-child {
+            text-align: right;
+        }
+        
+        .descricao-luminaria-emergencia .descricao-bloco.descricao-bloco-3 .descricao-bloco-3-imagem {
+            text-align: left;
+            margin: 0 50px 0 0;
+        }
+        
+        .descricao-luminaria-emergencia .descricao-bloco.descricao-bloco-6 h3, .descricao-luminaria-emergencia .descricao-bloco.descricao-bloco-6 strong {
+            font-weight: 300;
+            text-transform: uppercase;
+            letter-spacing: -1px;
+            color: #000;
+            font-size: 35px !important;
+            text-align: center;
+        }
+        
+        .descricao-luminaria-emergencia .descricao-bloco.descricao-bloco-6 ul {
+            display: flex;
+            list-style-type: none !important;
+            margin: 0;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 160px 0 160px;
+        }
+        
+        .descricao-luminaria-emergencia .descricao-bloco.descricao-bloco-6 li {
+            text-align: center;
+            cursor: pointer;
+        }
+        
+        .descricao-luminaria-emergencia .descricao-bloco.descricao-bloco-6 li span {
+            display: block;
+            text-transform: uppercase;
+            font-size: 16px !important;
+            font-weight: 100;
+            color: #000;
+            letter-spacing: -1px;
+        }
+        
+        .descricao-luminaria-emergencia .descricao-bloco.descricao-bloco-6 li div:first-child {
+            margin: 0 0 10px 0;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .descricao-luminaria-emergencia .descricao-bloco.descricao-bloco-6 ul:after {
+            display: none;
+        }
+        
+        .descricao-luminaria-emergencia .descricao-bloco.descricao-bloco-6 {
+            margin-bottom: 90px;
+            margin-top: 110px;
+        }
+        
+        .descricao-luminaria-emergencia .descricao-bloco.descricao-bloco-6 strong {
+            margin: 0 0 30px 0;
+        }
+        
+        .descricao-luminaria-emergencia .descricao-bloco.descricao-bloco-6 li img {
+            transition: all 0.3s;
+        }
+        
+        .descricao-luminaria-emergencia .descricao-bloco.descricao-bloco-6 li:hover img {
+            transform: scale(1.1);
+        }
+        
+        .descricao-luminaria-emergencia .descricao-bloco.descricao-bloco-5 .descricao-bloco-5-imagem {
+            margin-left: 50px;
+        }
+
+    }
+}
+
+/* DESCRIÇÃO LUMINÁRIA PÚBLICA */
+@media screen {
+
+    @media (min-width: 767px){
+
+        .descricao-luminaria-publica {
+            margin: 90px 0 50px 0;
+        }
+
+        .descricao-luminaria-publica .descricao-bloco.descricao-bloco-1 {
+            text-align: center;
+        }
+
+        .descricao-luminaria-publica .descricao-texto-simples {
+            font-size: 18px !important;
+            color: #363636;
+            letter-spacing: -0.3px;
+            line-height: 25px;
+        }
+
+        .descricao-luminaria-publica strong {
+            font-size: 55px !important;
+            color: #bc0000;
+            line-height: 50px;
+            display: block;
+            letter-spacing: -2px;
+        }
+
+        .descricao-luminaria-publica h2 {
+            font-size: 60px;
+            letter-spacing: -4px;
+            color: #bc0000;
+            padding: 0 150px;
+            line-height: 70px;
+            text-transform: uppercase;
+            font-weight: 900;
+        }
+
+        .descricao-luminaria-publica .descricao-imagem-produto {
+            margin: 140px 0 140px 0;    
+        }
+
+        .descricao-luminaria-publica .descricao-imagem-produto img {
+        max-height: 490px;
+        }
+
+        .descricao-luminaria-publica .descricao-bloco.descricao-bloco-1 strong {
+        margin: 60px 0 30px 0;
+        text-align: center;
+        padding: 0 210px;
+        }
+
+        .descricao-luminaria-publica .descricao-bloco.descricao-bloco-2 {text-align: center;}
+
+        .descricao-luminaria-publica .descricao-bloco.descricao-bloco-2 .descricao-imagens-ambiente {
+        text-align: center;
+        margin: 80px 0 120px 0px;
+        }
+
+        .descricao-luminaria-publica .descricao-bloco.descricao-bloco-1 p.descricao-texto-simples {
+        padding: 0 320px;
+        }
+
+        .descricao-luminaria-publica .descricao-bloco.descricao-bloco-3 .descricao-bloco-conteudo > div, 
+        .descricao-luminaria-publica .descricao-bloco.descricao-bloco-4 .descricao-bloco-conteudo > div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 80px;
+        justify-content: space-between;
+        }
+
+        .descricao-luminaria-publica .descricao-bloco.descricao-bloco-3 .descricao-bloco-3-imagem, 
+        .descricao-luminaria-publica .descricao-bloco.descricao-bloco-4 .descricao-bloco-4-imagem {
+        max-width: 580px;
+        text-align: center;
+        }
+
+        .descricao-luminaria-publica .descricao-bloco.descricao-bloco-3 .descricao-bloco-3-textos, 
+        .descricao-luminaria-publica .descricao-bloco.descricao-bloco-4 .descricao-bloco-4-textos {
+        max-width: 490px;
+        }
+
+        .descricao-luminaria-publica .descricao-bloco.descricao-bloco-3 .descricao-bloco-3-textos strong, 
+        .descricao-luminaria-publica .descricao-bloco.descricao-bloco-4 .descricao-bloco-4-textos strong {
+        margin-bottom: 25px;
+        }
+
+
+
+        .descricao-luminaria-publica .descricao-bloco.descricao-bloco-6 h3, 
+        .descricao-luminaria-publica .descricao-bloco.descricao-bloco-6 strong {
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: -1px;
+        color: #000;
+        font-size: 35px !important;
+        text-align: center;
+        }
+
+        .descricao-luminaria-publica .descricao-bloco.descricao-bloco-6 ul {
+        display: flex;
+        list-style-type: none !important;
+        margin: 0;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 130px 0 130px;
+        }
+
+        .descricao-luminaria-publica .descricao-bloco.descricao-bloco-6 li {
+        text-align: center;
+        cursor: pointer;
+        }
+
+        .descricao-luminaria-publica .descricao-bloco.descricao-bloco-6 li span {
+        display: block;
+        text-transform: uppercase;
+        font-size: 16px !important;
+        font-weight: 100;
+        color: #000;
+        letter-spacing: -1px;
+        }
+
+        .descricao-luminaria-publica .descricao-bloco.descricao-bloco-6 li div:first-child {
+        margin: 0 0 10px 0;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+
+        .descricao-luminaria-publica .descricao-bloco.descricao-bloco-6 ul:after {
+        display: none;
+        }
+
+        .descricao-luminaria-publica .descricao-bloco.descricao-bloco-6 {
+        margin-bottom: 90px;
+        margin-top: 110px;
+        }
+
+        .descricao-luminaria-publica .descricao-bloco.descricao-bloco-6 strong {
+        margin: 0 0 30px 0;
+        }
+
+        .descricao-luminaria-publica .descricao-bloco.descricao-bloco-6 li img {
+        transition: all 0.3s;
+        }
+
+        .descricao-luminaria-publica .descricao-bloco.descricao-bloco-6 li:hover img {
+        transform: scale(1.1);
+        }
+
+        .descricao-luminaria-publica .descricao-bloco.descricao-bloco-2 strong {
+        margin-bottom: 25px;
+        }
+
+        .descricao-luminaria-publica .descricao-bloco.descricao-bloco-2 p.descricao-texto-simples {
+        padding: 0 260px;
+        }
+
+        .descricao-luminaria-publica .descricao-bloco.descricao-bloco-5 {
+        margin: 80px 0 0px 0;
+        }
+
+        .descricao-luminaria-publica .descricao-bloco.descricao-bloco-5 .descricao-bloco-botao {
+            position: absolute;
+            bottom: 60px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .descricao-luminaria-publica .descricao-bloco.descricao-bloco-5 .descricao-bloco-conteudo {
+            position: relative;
+        }
+
+        .descricao-luminaria-publica .descricao-bloco.descricao-bloco-5 .descricao-bloco:not(.active) {
+            display: none;
+        }
+
+        .descricao-luminaria-publica .descricao-bloco.descricao-bloco-5 .botao-power-luminaria-publica {
+            display: table;
+            margin: 0 auto;
+            position: relative;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        .descricao-luminaria-publica .descricao-bloco.descricao-bloco-5 .botao-power-luminaria-publica .botao-power-icone {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .descricao-luminaria-publica .descricao-bloco.descricao-bloco-5 .botao-power-luminaria-publica .botao-power-icone i {
+            font-size: 35px;
+            position: relative;
+            left: 2px;
+            font-weight: 800;
+            color: #ababab;
+            transition: all 0.3s;
+        }
+
+        .descricao-luminaria-publica .descricao-bloco.descricao-bloco-5 .botao-power-luminaria-publica:hover {
+            opacity: 0.8;
+        }
+
+        .descricao-luminaria-publica .descricao-bloco.descricao-bloco-5 .botao-power-luminaria-publica.active .botao-power-icone i {
+            color: #ff0000;
+        }
+
+    }
+
+}
+
+
+/* DESCRIÇÃO REFLETOR LED VERDE */
+@media screen {
+
+    @media (min-width: 767px){
+
+        .descricao-refletor-verde .descricao-bloco.descricao-bloco-1 {
+            margin-bottom: 150px;
+        }
+        
+        .descricao-refletor-verde .descricao-bloco.descricao-bloco-1 .conteudo-bloco-imagem-textos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .descricao-refletor-verde .descricao-bloco.descricao-bloco-1 .conteudo-bloco-imagem-produto img {
+            max-height: 650px;
+        }
+        
+        .descricao-refletor-verde .descricao-bloco.descricao-bloco-1 .conteudo-bloco-textos {
+            margin-left: 35px;
+        }
+        
+        .descricao-refletor-verde .descricao-bloco.descricao-bloco-1 .conteudo-bloco-textos div {
+            font-size: 40px;
+            text-transform: uppercase;
+            font-weight: 900;
+            color: #de0000;
+            letter-spacing: -2px;
+        }
+        
+        .descricao-refletor-verde .descricao-bloco.descricao-bloco-1 .conteudo-bloco-textos div > span:first-child {
+            width: 120px;
+            display: inline-block;
+            text-align: center;
+        }
+        
+        .descricao-refletor-verde .descricao-bloco.descricao-bloco-1 .conteudo-bloco-textos > div {
+            margin-top: 65px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .descricao-refletor-verde .descricao-bloco.descricao-bloco-1 .conteudo-bloco-textos > div:first-child {
+            margin-top: 0;
+        }
+        
+        .descricao-refletor-verde .conteudo-bloco-titulo h2 {
+            font-size: 60px;
+            text-transform: uppercase;
+            font-weight: 900;
+            letter-spacing: -2px;
+            line-height: 60px;
+            color: #de0000;
+            text-align: center;
+            padding: 0 110px;
+            margin-bottom: 100px;
+            margin-top: 70px;
+        }
+        
+        .descricao-refletor-verde .descricao-bloco.descricao-bloco-2 {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 140px;
+        }
+        
+        .descricao-refletor-verde .descricao-bloco.descricao-bloco-2 .conteudo-interruptor.interruptor-desligado,
+        .descricao-refletor-verde .descricao-bloco.descricao-bloco-2 .conteudo-imagem.imagem-sem-led {
+            display: none;
+        }
+        
+        .descricao-refletor-verde strong {
+            font-size: 60px;
+            text-transform: uppercase;
+            font-weight: 900;
+            letter-spacing: -3px;
+            line-height: 60px;
+            color: #de0000;
+            text-align: center;
+            display: block;
+        }
+        
+        .descricao-refletor-verde .descricao-bloco.descricao-bloco-3 .conteudo-bloco-carousel {
+            border: none;
+            padding: 0;
+        }
+        
+        .descricao-refletor-verde .descricao-bloco.descricao-bloco-3 {
+            padding: 0 30px;
+            margin-bottom: 150px;
+        }
+        
+        .descricao-refletor-verde .descricao-bloco.descricao-bloco-3 .conteudo-bloco-carousel .conteudo-bloco-carousel-item div:first-child {
+            height: 130px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .descricao-refletor-verde .descricao-bloco.descricao-bloco-3 .conteudo-bloco-carousel .conteudo-bloco-carousel-item div > span {
+            display: block;
+            font-size: 25px;
+            text-transform: uppercase;
+            letter-spacing: -2px;
+            color: #de0000;
+            line-height: 25px;
+        }
+        
+        .descricao-refletor-verde .descricao-bloco.descricao-bloco-3 .conteudo-bloco-carousel .conteudo-bloco-carousel-item div:last-child {
+            margin-top: 14px;
+            font-size: 19px;
+            letter-spacing: -1px;
+            font-weight: 100;
+            line-height: 22px;
+        }
+        
+        .descricao-refletor-verde .conteudo-bloco-carousel-item {
+            padding: 0 20px;
+        }
+        
+        .descricao-refletor-verde .conteudo-bloco-carousel-item img {
+            filter: brightness(1.3);
+        }
+        
+        .descricao-refletor-verde .descricao-bloco.descricao-bloco-4 .conteudo-bloco-textos div {
+            font-size: 19px;
+            letter-spacing: -1px;
+            font-weight: 100;
+            line-height: 27px;
+            padding: 0 200px;
+            text-align: center;
+            margin: 20px 0 80px 0;
+        }
+        
+        .descricao-refletor-verde .descricao-bloco.descricao-bloco-4 {
+            margin: 0 0 190px 0px;
+        }
+        
+        .descricao-refletor-verde .descricao-bloco.descricao-bloco-4 .conteudo-bloco-imagens {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 90px;
+        }
+        
+        .descricao-refletor-verde .descricao-bloco.descricao-bloco-5 {
+            margin: 0 0 170px 0;
+        }
+        
+        .descricao-refletor-verde .descricao-bloco.descricao-bloco-5 h3 {
+            font-size: 40px;
+            font-weight: 100;
+            text-transform: uppercase;
+            letter-spacing: -2px;
+            text-align: center;
+            margin: 5px 0 40px 0;
+            color: #de0000;
+        }
+        
+        .descricao-refletor-verde .descricao-bloco.descricao-bloco-5 ul {
+            margin: 0 !important;
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+            text-align: center;
+        }
+        
+        .descricao-refletor-verde .descricao-bloco.descricao-bloco-5 ul li > div:first-child {
+            height: 90px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .descricao-refletor-verde .descricao-bloco.descricao-bloco-5 ul li {
+            list-style-type: none !important;
+        }
+        
+        .descricao-refletor-verde .descricao-bloco.descricao-bloco-5 ul li > span {
+            font-size: 20px;
+            text-transform: uppercase;
+            font-weight: 100;
+            letter-spacing: -1px;
+        }
+        
+        .descricao-refletor-verde .descricao-bloco.descricao-bloco-5 ul:after {
+            display: none;
+        }
+        
+        .descricao-refletor-verde .descricao-bloco.descricao-bloco-6 {
+            margin: 0 0 40px 0;
+        }
+        
+        .descricao-refletor-verde .descricao-bloco.descricao-bloco-6 > strong {
+            font-size: 40px;
+            letter-spacing: -2px;
+            margin: 0 0 20px 0;
+        }
+        
+        .descricao-refletor-verde .descricao-bloco.descricao-bloco-6 .conteudo-bloco-video {
+            background: #de0000;
+            padding: 60px 92px;
+        }
+        
+        .descricao-refletor-verde .descricao-bloco.descricao-bloco-6 .conteudo-bloco-video iframe {
+            width: 100%;
+            height: 560px;
+            box-shadow: 1px 1px 21px 0px rgb(0 0 0 / 49%);
+        }
+        
+        
+        .descricao-refletor-verde.interruptor-toggle .conteudo-interruptor.interruptor-ligado,
+        .descricao-refletor-verde.interruptor-toggle .conteudo-imagem.imagem-com-led {
+            display: none;
+        }
+        
+        .descricao-refletor-verde.interruptor-toggle .conteudo-interruptor.interruptor-desligado,
+        .descricao-refletor-verde.interruptor-toggle .conteudo-imagem.imagem-sem-led {
+            display: block !important;
+        }
+        
+        
+        
+        .descricao-refletor-verde .descricao-bloco.descricao-bloco-2 .conteudo-bloco-interruptor {
+            cursor: pointer;
+        }
+        
+        .descricao-refletor-verde .conteudo-bloco-carousel-item:hover img {
+            transform: scale(1.1);
+        }
+        
+        .descricao-refletor-verde .conteudo-bloco-carousel-item img {
+            transition: all 0.3s;
+        }
+        
+        .descricao-refletor-verde .descricao-bloco.descricao-bloco-5 ul li > div img {
+            transition: all 0.3s;
+        }
+        
+        .descricao-refletor-verde .descricao-bloco.descricao-bloco-5 ul li:hover img {
+            transform: scale(1.1);
+        }
+
+    }
+
+}
