@@ -10037,7 +10037,7 @@
                 background: #f00;
                 direction: rtl;
                 height: calc(99vh - 316px); 
-                max-height: 585px;
+                max-height: 540px;
             }
             
             
@@ -16237,6 +16237,7 @@
            .topo-flutuante #cabecalho {
                 background: #fff;
                 border-bottom-color: #e2e2e2;
+                box-shadow: 1px 1px 0px 0px #ddd;
             }
     
             .topo-flutuante div#cabecalho .busca input#auto-complete {
@@ -16636,7 +16637,8 @@
                  position: sticky;
                  top: -43px; 
                  z-index: 999999;
-                 border-bottom: 1px solid transparent;
+                 /*border-bottom: 1px solid transparent;*/
+                 background: #fff !important;
              }
      
             #cabecalho .usuario-dropdown .usuario-dropdown-entrar a:hover {
