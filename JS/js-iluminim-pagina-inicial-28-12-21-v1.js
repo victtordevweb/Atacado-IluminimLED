@@ -1252,7 +1252,7 @@ var PaginaInicial = {
       
       this.palavrasBuscadasTopoMobile();
       //this.tarjaTopoMobile();
-      this.gifTarjaMobile();
+      //this.gifTarjaMobile();
       //this.bannerYoutubeMobile();
       //this.bannerBaixeNossoAppMobile();
       this.historicoDeNavegacaoMobile();

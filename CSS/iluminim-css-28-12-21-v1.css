@@ -23981,6 +23981,24 @@
 
 
 
+@media (max-width: 767px){
+
+    .bloco-triplo-personalizado .content--product-application > a {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    
+    .bloco-triplo-personalizado .bloco-personalizado.bloco-produtos-peronalizados .content--product-application > a {
+        padding-left: 0 !important;
+        padding-right: 0px !important;
+    }
+    
+    body .bloco-triplo-personalizado div#smartfront__app:not(.smartfront_model_compre-junto):not(.smartfront__smartfrontapps-oferta-limitada-na-categoria) .content--product-application .product-application--prices-product {
+        padding-bottom: 20px !important;
+    }
+
+}
+
 /* ADAPTAÇÕES PARA O ATACADO */
 div#barraTopo {
     display: none !important;
