@@ -3845,10 +3845,10 @@
        }
     
        .pagina-personalizada-oferta-da-semana .banner.cheio .progress-countdown {
-           position: absolute;
-           height: 9.4%;
-           bottom: 19.2%;
-           padding: 0 3.3% 0 3.3%;
+        position: absolute;
+        height: 8.5%;
+        bottom: 21.7%;
+        padding: 0 8.6% 0 8.6%;
        }
        
        .pagina-personalizada-oferta-da-semana .banner.cheio .progress-countdown .progress-countdown-line {
@@ -10738,7 +10738,7 @@
        
        .progress-countdown-line {
            background: rgb(255,192,0);
-           background: linear-gradient(90deg, rgba(255,192,0,1) 0%, rgba(255,126,0,1) 53%, rgba(255,84,0,1) 100%);
+           background: linear-gradient(90deg, #efbc09 0%, #ffc702 53%, #f3be04 100%);
            display: block;
            border-radius: 5px;
            width: 0;

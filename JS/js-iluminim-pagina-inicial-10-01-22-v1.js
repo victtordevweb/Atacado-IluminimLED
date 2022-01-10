@@ -39,21 +39,6 @@ var PaginaInicial = {
          <div class="tarja-personalizada">
                      
             <ul class="lista-tarja">
-               <li class="item-tarja frete-gratis">
-                  
-                  <a href="/pagina/condicoes-de-frete-gratis.html" class="item-tarja-conteudo">
-                        <div class="item-tarja-icone">
-                           ${ILUMINIM_UTILS.icones.caminhao_4}                           
-                        </div>
-                        <span><strong>Frete Grátis</strong>Expresso para todo Brasil! Confira as regras</span>
-                  </a>
-                  <div class="item-tarja-dropdown">
-                        <div class="conteudo-dropdown-tarja">
-                           Para pedidos acima de R$299,00* confira o regulamento!
-                        </div>
-                  </div>
-      
-               </li>
       
                <li class="item-tarja entrega-expressa">
                   
@@ -77,7 +62,7 @@ var PaginaInicial = {
                         <div class="item-tarja-icone">
                            ${ILUMINIM_UTILS.icones.cartao}
                         </div>
-                        <span><strong>12x sem juros</strong>Parcele sem juros no cartão de crédito</span>
+                        <span><strong>4x sem juros</strong>Parcele sem juros no cartão de crédito</span>
                   </a>
                   <div class="item-tarja-dropdown">
                         <div class="conteudo-dropdown-tarja">
