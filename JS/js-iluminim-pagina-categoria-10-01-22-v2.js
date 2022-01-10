@@ -325,55 +325,55 @@ var PaginaCategoria = {
                         ['/oferta-da-semana']: [
                            {
                               url: '/oferta-da-semana-refletor-led?sort=mais_vendidos',
-                              imagem: 'https://cdn.awsli.com.br/257/257163/arquivos/banner%20odm%20refletores%20led%2021-10-2020.png',
+                              imagem: 'https://cdn.awsli.com.br/257/257163/arquivos/banner-ods-27-12-21-refletores-led.png',
                               //imagem: 'https://cdn.awsli.com.br/930/930730/arquivos/Banner_vertical_REFLETORES_led_friday_6.0-22-10-21.png',
                               nome: 'Refletores LED'
                            },
                            {
                               url: '/oferta-da-semana-plafon-led?sort=mais_vendidos',
-                              imagem: 'https://cdn.awsli.com.br/257/257163/arquivos/banner%20odm%20luminarias%20led%2021-10-2020.png',
+                              imagem: 'https://cdn.awsli.com.br/257/257163/arquivos/banner-ods-27-12-21-luminarias-led.png',
                               //imagem: 'https://cdn.awsli.com.br/930/930730/arquivos/Banner_vertical_LUMINARIAS_led_friday_6.0-22-10-21.png',
                               nome: 'Luminárias LED'
                            },
                            {
                               url: '/oferta-da-semana-spot-led?sort=mais_vendidos',
-                              imagem: 'https://cdn.awsli.com.br/257/257163/arquivos/banner%20odm%20spots%20led%2021-10-2020.png',
+                              imagem: 'https://cdn.awsli.com.br/257/257163/arquivos/banner-ods-27-12-21-spots-led.png',
                               //imagem: 'https://cdn.awsli.com.br/930/930730/arquivos/Banner_vertical_SPOTS_led_friday_6.0-22-10-21.png',
                               nome: 'Spots LED'
                            },
                            {
                               url: '/oferta-da-semana-fita-led?sort=mais_vendidos',
-                              imagem: 'https://cdn.awsli.com.br/257/257163/arquivos/banner%20odm%20fitas%20led%2021-10-2020.png',
+                              imagem: 'https://cdn.awsli.com.br/257/257163/arquivos/banner-ods-27-12-21-fitas-led.png',
                               //imagem: 'https://cdn.awsli.com.br/930/930730/arquivos/Banner_vertical_FITAS_led_friday_6.0-22-10-21.png',
                               nome: 'Fitas LED'
                            },
                            {
                               url: '/oferta-da-semana-lampada-led?sort=mais_vendidos',
-                              imagem: 'https://cdn.awsli.com.br/257/257163/arquivos/banner%20odm%20lampadasled%2021-10-2020.png',
+                              imagem: 'https://cdn.awsli.com.br/257/257163/arquivos/banner-ods-27-12-21-lampadas-led.png',
                               //imagem: 'https://cdn.awsli.com.br/930/930730/arquivos/Banner_vertical_LAMPADAS__led_friday_6.0-22-10-21.png',
                               nome: 'Lâmpadas LED'
                            },
                            {
                               url: '/pendente?sort=mais_vendidos',
                               //imagem: '', NÃO TEMOS A IMAGEM ORIGINAL, PRECISAMOS DESENVOLVER
-                              imagem: 'https://cdn.awsli.com.br/257/257163/arquivos/Banner_vertical_PENDENTES_led_friday_6.0-16-11-21.png',
+                              imagem: 'https://cdn.awsli.com.br/257/257163/arquivos/banner-ods-27-12-21-pendentes-led.png',
                               nome: 'Pendentes LED'                    
                            },
                            {
                               url: '/lustre?sort=mais_vendidos',
                               //imagem: '', NÃO TEMOS A IMAGEM ORIGINAL, PRECISAMOS DESENVOLVER
-                              imagem: 'https://cdn.awsli.com.br/257/257163/arquivos/Banner_vertical_LUSTRES_led_friday_6.0-16-11-21.png',
+                              imagem: 'https://cdn.awsli.com.br/257/257163/arquivos/banner-ods-27-12-21-lustres-led.png',
                               nome: 'Lustres LED'                    
                            },
                            {
                               url: '/oferta-da-semana-acessorios-led?sort=mais_vendidos',
-                              imagem: 'https://cdn.awsli.com.br/257/257163/arquivos/banner%20odm%20acessorios%20led%2021-10-2020.png',
+                              imagem: 'https://cdn.awsli.com.br/257/257163/arquivos/banner-ods-27-12-21-acessorios-led.png',
                               //imagem: 'https://cdn.awsli.com.br/930/930730/arquivos/Banner_vertical_ACESSORIOS_led_friday_6.0-22-10-21.png',
                               nome: 'Acessórios LED'
                            },
                            {
                               url: '/lancamentos-led?sort=ultimos_produtos',
-                              imagem: 'https://cdn.awsli.com.br/257/257163/arquivos/banner-ods-lancamentos-18AGO21-v2.png',
+                              imagem: 'https://cdn.awsli.com.br/257/257163/arquivos/banner-ods-27-12-21-lancamentos-led.png',
                               //imagem: 'https://cdn.awsli.com.br/930/930730/arquivos/Banner_vertical_Lancamentos_led_friday_6.0-22-10-21.png',
                               nome: 'Lançamentos LED'
                            },
