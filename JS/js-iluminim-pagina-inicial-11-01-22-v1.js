@@ -223,12 +223,12 @@ var PaginaInicial = {
                   bloco_1: [
                      {
                         nome: 'Banner Linha LED até 8% off',
-                        imagem: 'https://cdn.awsli.com.br/1234/1234739/arquivos/Banner_Principal_Atacado_Vertical_Linha_LED_375x485_Precos_Imbativeis.png',
+                        imagem: 'https://cdn.awsli.com.br/1234/1234739/arquivos/banner-vertical-linha-led-11-01-21.png',
                         link: '/oferta-da-semana?sort=mais_vendidos',
                      },
                      {
                         nome: 'Banner Lançamentos',
-                        imagem: 'https://cdn.awsli.com.br/1234/1234739/arquivos/Banner_Principal_Atacado_Vertical_Lancamentos_22-01.png',
+                        imagem: 'https://cdn.awsli.com.br/1234/1234739/arquivos/banner-vertical-lancamentos-led-11-01-21.png',
                         link: '/lancamentos-led?sort=ultimos_produtos',
                      },
                   ]
