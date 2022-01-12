@@ -10357,8 +10357,21 @@
         position: relative;
        }
 
-       .bloco-triplo-personalizado .bloco-personalizado.bloco-produtos-peronalizados.bloco-3 .topo-bloco-produtos-peronalizados {
-          background: #ff0000;
+        .bloco-triplo-personalizado .bloco-personalizado.bloco-produtos-peronalizados.bloco-2 .topo-bloco-produtos-peronalizados {
+            background: url(https://cdn.awsli.com.br/1234/1234739/arquivos/bg-melhor-preco-revenda-12-01-22.png) center center no-repeat;
+        }
+
+        .bloco-triplo-personalizado .bloco-personalizado.bloco-produtos-peronalizados.bloco-2 .topo-bloco-produtos-peronalizados:before {
+            border-color: #ff0000;
+        }
+
+        .bloco-triplo-personalizado .bloco-personalizado.bloco-produtos-peronalizados.bloco-2 .bloco-produtos-titulo {
+            color: #ff0000;
+            text-shadow: 0px 1px 1px rgb(255 255 255), 0px 1px 4px rgb(255 255 255);
+        }
+
+        .bloco-triplo-personalizado .bloco-personalizado.bloco-produtos-peronalizados.bloco-3 .topo-bloco-produtos-peronalizados {
+            background: url(https://cdn.awsli.com.br/1234/1234739/arquivos/bg-oferta-do-dia-12-01-22.png) center center no-repeat;
         }
 
        .bloco-triplo-personalizado .bloco-personalizado.bloco-produtos-peronalizados .topo-bloco-produtos-peronalizados:before {
@@ -10495,7 +10508,7 @@
            }
     
            .bloco-triplo-personalizado .bloco-personalizado.bloco-produtos-peronalizados .topo-bloco-produtos-peronalizados {
-               background: none !important;
+               background-size: cover !important;
            }
     
            .bloco-triplo-personalizado .bloco-personalizado.bloco-produtos-peronalizados {
