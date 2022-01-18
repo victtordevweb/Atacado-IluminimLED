@@ -1350,11 +1350,11 @@
            position: relative;
        }
     
-       .pagina-cadastro #corpo .formulario-cadastro-cliente .tipo-cadastro fieldset #id_tipo {
+       /*.pagina-cadastro #corpo .formulario-cadastro-cliente .tipo-cadastro fieldset #id_tipo {
            display: flex;
            align-items: center;
            justify-content: flex-start;
-       }
+       }*/
     
        .pagina-cadastro #corpo .formulario-cadastro-cliente .tipo-cadastro fieldset #id_tipo li {
             margin: 0 15px 0 0 !important;
@@ -24112,3 +24112,14 @@ div#menu-lampada,
 .bloco-triplo-personalizado .bloco-personalizado.bloco-3 .bloco-produto-cronometro svg {
     filter: grayscale(1) brightness(10);
 }
+
+
+ /* CSS DESABILITAR CADASTRO CPF */
+ @media screen {
+
+    ul#id_tipo label[for="id_tipo_0"] {
+        display: none;
+    }
+
+
+ }
