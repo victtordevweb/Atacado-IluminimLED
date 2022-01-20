@@ -261,47 +261,97 @@ var PaginaInicial = {
                }
 
                return `
-                  <div class="bloco-triplo-personalizado">
 
-                     ${ ILUMINIM_UTILS.screen.isDesktop() ? `
-                           <div class="bloco-personalizado bloco-1">
+                  ${ ILUMINIM_UTILS.screen.isDesktop() ? `
+                        
+                     <div class="bloco-triplo-personalizado">
 
-                              <div class="lista-bloco-1 lista-banners-bloco-personalizado carousel-target">
+                        <div class="bloco-personalizado bloco-produtos-peronalizados bloco-2">
+                              <div class="topo-bloco-produtos-peronalizados">
+                                 <div class="bloco-produtos-titulo">Melhor preço de revenda</div>
+                                 <div class="bloco-produto-cronometro">
+                                    ${ILUMINIM_UTILS.icones.relogio_2}
+                                    <ul class="countdown-target"></ul>
+                                 </div>
+                              </div>
+                              <div class="lista-produtos-bloco-personalizado">
+                                 <div class="iluminim-loading">${ ILUMINIM_UTILS.icones.loading }</div>
+                              </div>
+                        </div>
 
-                                 ${htmlList.bloco_1}
+                        ${ ILUMINIM_UTILS.screen.isDesktop() ? `
+                              <div class="bloco-personalizado bloco-1">
+
+                                 <div class="lista-bloco-1 lista-banners-bloco-personalizado carousel-target">
+
+                                    ${htmlList.bloco_1}
+
+                                 </div>
 
                               </div>
+                        ` : `` }
 
-                           </div>
-                     ` : `` }
-
-                     <div class="bloco-personalizado bloco-produtos-peronalizados bloco-2">
-                           <div class="topo-bloco-produtos-peronalizados">
-                              <div class="bloco-produtos-titulo">Melhor preço de revenda</div>
-                              <div class="bloco-produto-cronometro">
-                                 ${ILUMINIM_UTILS.icones.relogio_2}
-                                 <ul class="countdown-target"></ul>
+                        <div class="bloco-personalizado bloco-produtos-peronalizados bloco-3">
+                              <div class="topo-bloco-produtos-peronalizados">
+                                 <div class="bloco-produtos-titulo">Ofertas do dia!</div>
+                                 <div class="bloco-produto-cronometro">
+                                    ${ILUMINIM_UTILS.icones.relogio_2}
+                                    <ul class="countdown-target"></ul>
+                                 </div>
                               </div>
-                           </div>
-                           <div class="lista-produtos-bloco-personalizado">
-                              <div class="iluminim-loading">${ ILUMINIM_UTILS.icones.loading }</div>
-                           </div>
+                              <div class="lista-produtos-bloco-personalizado">
+                                 <div class="iluminim-loading">${ ILUMINIM_UTILS.icones.loading }</div>
+                              </div>
+                        </div>
+
                      </div>
+                  
+                  ` : `
+                  
+                     <div class="bloco-triplo-personalizado">
 
-                     <div class="bloco-personalizado bloco-produtos-peronalizados bloco-3">
-                           <div class="topo-bloco-produtos-peronalizados">
-                              <div class="bloco-produtos-titulo">Ofertas do dia!</div>
-                              <div class="bloco-produto-cronometro">
-                                 ${ILUMINIM_UTILS.icones.relogio_2}
-                                 <ul class="countdown-target"></ul>
+                        ${ ILUMINIM_UTILS.screen.isDesktop() ? `
+                              <div class="bloco-personalizado bloco-1">
+
+                                 <div class="lista-bloco-1 lista-banners-bloco-personalizado carousel-target">
+
+                                    ${htmlList.bloco_1}
+
+                                 </div>
+
                               </div>
-                           </div>
-                           <div class="lista-produtos-bloco-personalizado">
-                              <div class="iluminim-loading">${ ILUMINIM_UTILS.icones.loading }</div>
-                           </div>
-                     </div>
+                        ` : `` }
 
-                  </div>
+                        <div class="bloco-personalizado bloco-produtos-peronalizados bloco-2">
+                              <div class="topo-bloco-produtos-peronalizados">
+                                 <div class="bloco-produtos-titulo">Melhor preço de revenda</div>
+                                 <div class="bloco-produto-cronometro">
+                                    ${ILUMINIM_UTILS.icones.relogio_2}
+                                    <ul class="countdown-target"></ul>
+                                 </div>
+                              </div>
+                              <div class="lista-produtos-bloco-personalizado">
+                                 <div class="iluminim-loading">${ ILUMINIM_UTILS.icones.loading }</div>
+                              </div>
+                        </div>
+
+                        <div class="bloco-personalizado bloco-produtos-peronalizados bloco-3">
+                              <div class="topo-bloco-produtos-peronalizados">
+                                 <div class="bloco-produtos-titulo">Ofertas do dia!</div>
+                                 <div class="bloco-produto-cronometro">
+                                    ${ILUMINIM_UTILS.icones.relogio_2}
+                                    <ul class="countdown-target"></ul>
+                                 </div>
+                              </div>
+                              <div class="lista-produtos-bloco-personalizado">
+                                 <div class="iluminim-loading">${ ILUMINIM_UTILS.icones.loading }</div>
+                              </div>
+                        </div>
+
+                     </div>
+                  
+                  ` }
+                  
                `;
       
          },
