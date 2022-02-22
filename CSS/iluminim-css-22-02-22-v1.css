@@ -7039,6 +7039,16 @@
             font-size: 13px;
             border-radius: 5px;
         }
+
+        .usuario-deslogado.adaptacao-produto-flutuante .produto .acoes-flutuante .acoes-produto .comprar .botao-comprar {
+            padding: 7px 4px 7px 2px !important;
+            width: 225px !important;
+            font-size: 0px !important;
+            border-radius: 5px !important;
+            height: 35px !important;
+            background: #df1d1d !important;
+            border-bottom-color: #ad2222 !important;
+        }
                 
         body.adaptacao-produto-flutuante .produto .acoes-flutuante .acoes-produto .preco-produto div:first-child, 
         body.adaptacao-produto-flutuante .produto .acoes-flutuante .acoes-produto .preco-produto div:first-child+div {
