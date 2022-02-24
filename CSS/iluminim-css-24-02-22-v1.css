@@ -9664,6 +9664,7 @@
                justify-content: center;
                border-radius: 5px;
                width: 180px;
+               min-height: 230px;
            }
            
            .menu__nivel-dois.menu__nivel-dois--oferta-da-semana div#smartfront__app .content--product-application > a:hover {
@@ -9772,7 +9773,27 @@
     
     
     
-    
+           .menu__nivel-dois.menu__nivel-dois--oferta-da-semana div#smartfront__app .content--product-application > a .product-application--prices-product .prices-product--sale-price:after {
+                content: "\f005 \f005 \f005 \f005 \f005";
+                display: block;
+                margin: 5px 0 -2px 0px;
+                font-family: 'FontAwesome';
+                font-size: 16px;
+                letter-spacing: 2px;
+                color: #ffc240;
+            }
+            
+            .menu__nivel-dois.menu__nivel-dois--oferta-da-semana div#smartfront__app .content--product-application > a .product-application--prices-product .prices-product--sale-price {
+                display: block !important;
+                color: #34af6f !important;
+                font-size: 17px;
+                margin: 8px 0 0 0;
+            }
+            
+            .menu__nivel-dois.menu__nivel-dois--oferta-da-semana div#smartfront__app .content--product-application > a .product-application--prices-product .prices-product--sale-price b {
+                font-weight: 900;
+            }
+            
     
     
            li.menu__item.menu__item--new > a:after {
