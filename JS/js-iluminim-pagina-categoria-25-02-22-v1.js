@@ -21,8 +21,7 @@ var PaginaCategoria = {
                            A Iluminim é uma loja de iluminação online que oferece uma extensa linha de Lâmpadas de LED, Refletores, Luminárias, Plafons, 
                            Fitas de LED, Spots e muitos outros produtos seletamente escolhidos para sua necessidade. Seja ela iluminação de jardim, 
                            iluminaçao residencial, iluminação publica ou iluminação para festas, temos o melhor material para você utilizar em seu projeto, 
-                           a maior garantia do mercado e as melhores condições de pagamento. Parcelamos em até 12x sem juros, oferecemos 10% de desconto no 
-                           boleto e um frete totalmente gratuito para compras acima de R$ 299,00. Aproveite agora mesmo e adquira o tudo em <b>Iluminação</b>
+                           a maior garantia do mercado e as melhores condições de pagamento. Parcelamos em até 4x sem juros ou por boleto/pix. Aproveite agora mesmo e adquira o tudo em <b>Iluminação</b>
                            de LED na Iluminim. Confie em quem entende! Confie na líder!
                         </div>
                         <div class="block-categories span12">
@@ -186,7 +185,7 @@ var PaginaCategoria = {
                            <div class="container">
                               <div class="linha-um into-estatisticas">
                                     <div class="texto-estatisticas">
-                                       <p class="texto-estatistica--into">A <b>Iluminim</b> revolucionou o mercado de iluminação e hoje - há 10 anos no segmento - é referência em produtos de LED. Mudando o jeito de fazer negócio, a Iluminim se preocupa fundamentalmente com o cliente, seja oferecendo as melhores condições de pagamento com opção de parcelamento de até <b>12x sem juros</b> no cartão de crédito ou disponibilizando <b>10% de desconto</b> à vista no boleto. <b>A maior garantia do mercado, os preços baixos e o frete gratuito</b> para compras a partir de R$ 299,00, elevam ainda mais o patamar do maior e-commerce de LED do Brasil. Além de fazer bem para o seu bolso, a Iluminim também preza pela sustentabilidade do planeta, seja comercializando a tecnologia mais sustentável do ramo, quanto em ações sociais que visam a empatia ao próximo (ao finalizar uma compra você pode selecionar para qual programa iremos doar um fundo monetário). Confie em quem entende o que é melhor para o planeta. Confie na líder!</p>
+                                       <p class="texto-estatistica--into">A <b>Iluminim</b> revolucionou o mercado de iluminação e hoje - há 10 anos no segmento - é referência em produtos de LED. Mudando o jeito de fazer negócio, a Iluminim se preocupa fundamentalmente com o cliente, seja oferecendo as melhores condições de pagamento com opção de parcelamento de até <b>4x sem juros</b> ou por boleto/pix. <b>A maior garantia do mercado</b> elevando ainda mais o patamar do maior e-commerce de LED do Brasil. Além de fazer bem para o seu bolso, a Iluminim também preza pela sustentabilidade do planeta, seja comercializando a tecnologia mais sustentável do ramo, quanto em ações sociais que visam a empatia ao próximo (ao finalizar uma compra você pode selecionar para qual programa iremos doar um fundo monetário). Confie em quem entende o que é melhor para o planeta. Confie na líder!</p>
                                     </div>
                                     <div class="progresssbar-estatisticas">
                                        <h3 class="titulo-texto-estatisticas">Saiba porquê investir em LED:</h3>

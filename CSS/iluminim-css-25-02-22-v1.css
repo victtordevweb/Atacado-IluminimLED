@@ -5640,7 +5640,6 @@
     
        .comprando-iluminim .lista-comprando-iluminim {
            display: flex;
-           align-items: center;
            justify-content: space-between;
        }
     

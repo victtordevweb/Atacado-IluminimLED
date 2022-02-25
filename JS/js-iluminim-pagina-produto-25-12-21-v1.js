@@ -74,7 +74,7 @@ var PaginaProduto = {
 
                   <div class="conteudo-comprando-iluminim">
                      <b class="titulo-conteudo">Forma de Pagamento</b>
-                     <p class="conteudo-texto">Sua compra pode ser realizada por cartão de crédito em até 12x sem juros, com parcelas mínimas de R$ 15, ou através de boleto bancário com 10% de desconto extra no valor total.</p>
+                     <p class="conteudo-texto">Sua compra pode ser realizada por cartão de crédito em até 4x sem juros ou por boleto/pix.</p>
                   </div>
 
                   <div class="conteudo-comprando-iluminim">
@@ -94,7 +94,7 @@ var PaginaProduto = {
          <div class="prazos-de-entrega">
                <div class="icone-caminhao">${ILUMINIM_UTILS.icones.caminhao}</div>
                <div class="prazos-de-entrega-conteudo">
-                  <span class="texto-1">Envio com <b>desconto</b>para todo o país</span>
+                  <span class="texto-1">Envio com <b>desconto</b> para todo o país</span>
                   <span class="texto-2">Saiba os prazos de entrega e as formas de envio. <a href="#!" data-toggle="modal" data-target="#modal_detalhes_custo_frete">Detalhes</a></span>
                </div>
          </div>
