@@ -383,7 +383,15 @@ var PaginaInicial = {
    },
    
    verTodosNasListagens(){
+      
+      $('#listagemProdutos a.titulo-categoria').each(function(){
 
+         let href = $(this).attr('href');
+
+         $(this).attr('href', href + '?sort=mais_vendidos');
+
+      });
+      
       $('#listagemProdutos a.titulo-categoria').append('<span class="ver-todos">Ver Todos <i class="icon-list-ul"></i></span>');
 
    },
@@ -1210,55 +1218,41 @@ var PaginaInicial = {
          .titulo-categoria.borda-principal.cor-principal.vitrine-mas-vendido
       `).appendTo('div#listagemProdutos');
 
-      //KITS ESPECIAIS
+      //REFLETORES
       $(`
-         a.titulo-categoria.borda-principal.cor-principal.vitrine-1355586+ul, 
-         a.titulo-categoria.borda-principal.cor-principal.vitrine-1355586
+         a.titulo-categoria.borda-principal.cor-principal.vitrine-3931472+ul, 
+         a.titulo-categoria.borda-principal.cor-principal.vitrine-3931472
       `).appendTo('div#listagemProdutos');
 
-      //REFLETORES LED
+      //LAMPADAS TUBULAR
       $(`
-         a.titulo-categoria.borda-principal.cor-principal.vitrine-877731+ul, 
-         a.titulo-categoria.borda-principal.cor-principal.vitrine-877731
+         a.titulo-categoria.borda-principal.cor-principal.vitrine-3931398+ul, 
+         a.titulo-categoria.borda-principal.cor-principal.vitrine-3931398
       `).appendTo('div#listagemProdutos');
 
-      //LUMINÁRIAS LED
+      //PLAFON
       $(`
-         a.titulo-categoria.borda-principal.cor-principal.vitrine-881697+ul, 
-         a.titulo-categoria.borda-principal.cor-principal.vitrine-881697
+         a.titulo-categoria.borda-principal.cor-principal.vitrine-3931442+ul, 
+         a.titulo-categoria.borda-principal.cor-principal.vitrine-3931442
       `).appendTo('div#listagemProdutos');
 
-      //LANÇAMENTOS LED
+      //LANÇAMENTOS
       $(`
-         .titulo-categoria.borda-principal.cor-principal.vitrine-lancamento+ul, 
-         .titulo-categoria.borda-principal.cor-principal.vitrine-lancamento
+         a.titulo-categoria.borda-principal.cor-principal.vitrine-3931421+ul, 
+         a.titulo-categoria.borda-principal.cor-principal.vitrine-3931421
       `).appendTo('div#listagemProdutos');
       
-      //SPOT LED
+      //FITA LED
       $(`
-         a.titulo-categoria.borda-principal.cor-principal.vitrine-881062+ul, 
-         a.titulo-categoria.borda-principal.cor-principal.vitrine-881062
+         a.titulo-categoria.borda-principal.cor-principal.vitrine-3931377+ul, 
+         a.titulo-categoria.borda-principal.cor-principal.vitrine-3931377
       `).appendTo('div#listagemProdutos');
 
-
-      //LÂMPADAS LED
+      //ACESSÓRIOS LED
       $(`
-         a.titulo-categoria.borda-principal.cor-principal.vitrine-881065+ul, 
-         a.titulo-categoria.borda-principal.cor-principal.vitrine-881065
+         a.titulo-categoria.borda-principal.cor-principal.vitrine-3931356+ul, 
+         a.titulo-categoria.borda-principal.cor-principal.vitrine-3931356
       `).appendTo('div#listagemProdutos');
-   
-      //FITAS LED
-      $(`
-         a.titulo-categoria.borda-principal.cor-principal.vitrine-881696+ul, 
-         a.titulo-categoria.borda-principal.cor-principal.vitrine-881696
-      `).appendTo('div#listagemProdutos');
-
-      //KIT PENDENTES LED
-      $(`
-         a.titulo-categoria.borda-principal.cor-principal.vitrine-2756184+ul, 
-         a.titulo-categoria.borda-principal.cor-principal.vitrine-2756184
-      `).appendTo('div#listagemProdutos');
-
 
    },
 
