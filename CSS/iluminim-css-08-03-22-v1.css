@@ -1220,6 +1220,12 @@
     /* CSS GERAIS */
     @media screen {
 
+        iframe#launcher {
+            position: fixed;
+            left: 0 !important;
+            bottom: 0 !important;
+        }
+
         .cor-secundaria {
             color: #444444;
         }
