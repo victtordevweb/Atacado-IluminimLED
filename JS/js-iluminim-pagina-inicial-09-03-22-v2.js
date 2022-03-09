@@ -1241,7 +1241,13 @@ var PaginaInicial = {
          a.titulo-categoria.borda-principal.cor-principal.vitrine-3931421+ul, 
          a.titulo-categoria.borda-principal.cor-principal.vitrine-3931421
       `).appendTo('div#listagemProdutos');
-      
+
+      //ARANDELAS LED
+      $(`
+         a.titulo-categoria.borda-principal.cor-principal.vitrine-3931363+ul, 
+         a.titulo-categoria.borda-principal.cor-principal.vitrine-3931363
+      `).appendTo('div#listagemProdutos');
+   
       //FITA LED
       $(`
          a.titulo-categoria.borda-principal.cor-principal.vitrine-3931377+ul, 
