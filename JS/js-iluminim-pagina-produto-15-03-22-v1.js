@@ -3062,7 +3062,7 @@ var PaginaProduto = {
      alteraTituloPagina.iniciar();
    },
 
-   criarLocaisDeAplicacoesDinamicas(){
+   /*criarLocaisDeAplicacoesDinamicas(){
 
       let target = $('.produto>.row-fluid:first-child');
 
@@ -3109,6 +3109,141 @@ var PaginaProduto = {
          `);
 
       }
+
+   },*/
+
+   blocosDinamicosEmAbas(){
+
+      if(!ILUMINIM_UTILS.screen.isDesktop()){
+         return;
+      }
+
+      let target = $('.produto>.row-fluid:first-child');
+
+      target.after(`
+         <div class="blocos-dinamicos-em-abas">
+
+            <div class="blocos-dinamicos-abas">
+               
+            </div>
+
+            <div class="blocos-dinamicos-abas-conteudo">
+            
+               <div class="bloco-dinamico-aba-conteudo" data-bloco-nome="confira-os-kits">
+                  <div id="aplicacao-dinamica-confira-os-kits">
+                     <div class="target"></div>
+                  </div>
+               </div>
+
+               <div class="bloco-dinamico-aba-conteudo" data-bloco-nome="compre-junto">
+                  <div id="aplicacao-dinamica-compre-junto">
+                     <div class="target"></div>
+                  </div>
+               </div>
+
+               <div class="bloco-dinamico-aba-conteudo" data-bloco-nome="produtos-similares">
+                  <div id="aplicacao-dinamica-produtos-similares">
+                     <div class="target"></div>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      `);
+
+      
+      let verificarSeExisteCompreJunto = setInterval(() => {
+
+         if($('div#smartfront__app.smartfrontapps-compre-junto').length > 0){
+
+            $('.blocos-dinamicos-em-abas').addClass('bloco-ativo');
+
+            $('.blocos-dinamicos-abas').append(`
+               <div class="bloco-dinamico-aba" data-bloco-nome="compre-junto"><span>Compre Junto</span></div>
+            `);
+
+            $('.blocos-dinamicos-abas .bloco-dinamico-aba[data-bloco-nome="compre-junto"]').click();
+
+            clearInterval(verificarSeExisteCompreJunto);
+      
+         }
+            
+      }, 500);
+      
+      setTimeout(() => {
+         clearInterval(verificarSeExisteCompreJunto);
+      }, 10000);
+
+      
+      let verificarSeExisteKitsProdutos = setInterval(() => {
+      
+         if($('div#smartfront__app.smartfront__smartfrontapps-kits-produtos-iluminim .content--product-application').length >= 4){
+                  
+            $('.blocos-dinamicos-em-abas').addClass('bloco-ativo');
+
+            $('.blocos-dinamicos-abas').prepend(`
+               <div class="bloco-dinamico-aba" data-bloco-nome="confira-os-kits"><span>Confira os Kits!</span></div>
+            `);
+
+            /*if($('div#smartfront__app.smartfrontapps-compre-junto').length == 0){*/
+            
+               $('.blocos-dinamicos-abas .bloco-dinamico-aba[data-bloco-nome="confira-os-kits"]').click();
+
+            /*}*/
+
+            clearInterval(verificarSeExisteKitsProdutos);
+      
+         }
+         
+      }, 500);
+      
+      setTimeout(() => {
+            clearInterval(verificarSeExisteKitsProdutos);
+      }, 10000);
+
+
+
+
+
+      let verificarSeExisteProdutosSimilares = setInterval(() => {
+
+
+         if($('div#smartfront__app.smartfrontapps-compre-junto').length > 0 && $('div#smartfront__app.smartfront__smartfrontapps-kits-produtos-iluminim .content--product-application').length < 4){
+
+            $('.blocos-dinamicos-em-abas').addClass('bloco-ativo');
+
+            $('.blocos-dinamicos-abas').append(`
+               <div class="bloco-dinamico-aba" data-bloco-nome="produtos-similares"><span>Produtos Similares</span></div>
+            `);
+
+            //$('.blocos-dinamicos-abas .bloco-dinamico-aba[data-bloco-nome="produtos-similares"]').click();
+
+            clearInterval(verificarSeExisteProdutosSimilares);
+
+         }
+         
+      }, 500);
+      
+      setTimeout(() => {
+            clearInterval(verificarSeExisteProdutosSimilares);
+      }, 10000);
+
+
+
+
+      $(document).on('click', '.blocos-dinamicos-em-abas .blocos-dinamicos-abas .bloco-dinamico-aba', function(){
+
+         let referencia = $(this).attr('data-bloco-nome');
+     
+         $(this).parents('.blocos-dinamicos-abas').find('.bloco-dinamico-aba').removeClass('aba-ativa');
+     
+         $(this).addClass('aba-ativa');
+     
+         $(this).parents('.blocos-dinamicos-abas').siblings('.blocos-dinamicos-abas-conteudo').find('.bloco-dinamico-aba-conteudo').removeClass('aba-conteudo-ativa');
+     
+         $(this).parents('.blocos-dinamicos-abas').siblings('.blocos-dinamicos-abas-conteudo').find(`.bloco-dinamico-aba-conteudo[data-bloco-nome="${referencia}"]`).addClass('aba-conteudo-ativa');
+     
+     });
 
    },
 
@@ -3678,7 +3813,8 @@ var PaginaProduto = {
          //this.modalContinuarComprando();
          this.adaptacoesProdutoFlutuante();
 
-         this.criarLocaisDeAplicacoesDinamicas(); //MANTER NO FINAL
+         //this.criarLocaisDeAplicacoesDinamicas(); //MANTER NO FINAL
+         this.blocosDinamicosEmAbas(); //MANTER ORDEM
          this.acoesFlutuante(); //MANTER NO FINAL
          
 
