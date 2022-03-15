@@ -147,10 +147,15 @@ var PaginaProduto = {
 
    adicionarPorcentagemDesconto(){
 
-      function setarHTMLDesconto(){
+      function setarHTMLDesconto(desconto){
+
+         if(!desconto){
+            desconto = ILUMINIM_UTILS.produto.desconto_porcentagem();
+         }
+
          $('.produto .conteiner-imagem').prepend(`
                <div class="desconto-produto">
-                  <span class="porcentagem-desconto">${ILUMINIM_UTILS.produto.desconto_porcentagem()}%</span>
+                  <span class="porcentagem-desconto">${desconto}%</span>
                   <span class="texto-off">Off</span>
                </div>
          `);
@@ -174,6 +179,31 @@ var PaginaProduto = {
 
          }
       });
+
+
+      
+
+      if($('body').hasClass('usuario-deslogado')){
+         
+         let verificarDescontoProduto = setInterval(() => {
+
+            let [result] = window.SMARTFRONT?.XML?.findProdXML([ILUMINIM_UTILS.produto.sku()]) || [];
+
+            if(result){
+
+               setarHTMLDesconto(result.discount_percent);
+
+               clearInterval(verificarDescontoProduto);
+
+            }
+               
+         }, 500);
+         
+         setTimeout(() => {
+            clearInterval(verificarDescontoProduto);
+         }, 10000);
+
+      }
 
    },
 
@@ -3161,6 +3191,7 @@ var PaginaProduto = {
          </div>
       `);
 
+      window.SMARTFRONT?.XML?.findProdXML(['XL-5050VM']);
       
       let verificarSeExisteCompreJunto = setInterval(() => {
 
