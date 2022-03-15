@@ -3118,6 +3118,16 @@ var PaginaProduto = {
          return;
       }
 
+      if(ILUMINIM_UTILS.screen.isDesktop()){
+
+         $('.descricao-conteudo-accordion.duvidas-rapidas').after(`
+            <div id="aplicacao-dinamica-ofertas-especiais">
+               <div class="target"></div>
+            </div>
+         `);
+
+      }
+
       let target = $('.produto>.row-fluid:first-child');
 
       target.after(`
@@ -3207,8 +3217,7 @@ var PaginaProduto = {
 
       let verificarSeExisteProdutosSimilares = setInterval(() => {
 
-
-         if($('div#smartfront__app.smartfrontapps-compre-junto').length > 0 && $('div#smartfront__app.smartfront__smartfrontapps-kits-produtos-iluminim .content--product-application').length < 4){
+         if($('div#smartfront__app.smartfront__smartfrontapps-produtos-similares .content--product-application').length >= 4){
 
             $('.blocos-dinamicos-em-abas').addClass('bloco-ativo');
 
@@ -3216,7 +3225,12 @@ var PaginaProduto = {
                <div class="bloco-dinamico-aba" data-bloco-nome="produtos-similares"><span>Produtos Similares</span></div>
             `);
 
-            //$('.blocos-dinamicos-abas .bloco-dinamico-aba[data-bloco-nome="produtos-similares"]').click();
+            if($('div#smartfront__app.smartfrontapps-compre-junto').length == 0){
+
+               $('.blocos-dinamicos-abas .bloco-dinamico-aba[data-bloco-nome="produtos-similares"]').click();
+               $('.blocos-dinamicos-abas').addClass('aba-unitaria');
+
+            }
 
             clearInterval(verificarSeExisteProdutosSimilares);
 

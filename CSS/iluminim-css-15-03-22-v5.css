@@ -7139,11 +7139,11 @@
             display: none;
         }
 
-        div#smartfront__app.smartfront__smartfrontapps-produtos-similares .product-application--tags .tags--tag.tag-discount {
+        /*div#smartfront__app.smartfront__smartfrontapps-produtos-similares .product-application--tags .tags--tag.tag-discount {
             width: 35px !important;
             height: 35px !important;
             line-height: 34px !important;
-        }
+        }*/
         
         div#smartfront__app.smartfront__smartfrontapps-produtos-similares .product-application--tags .tags--tag.tag-discount * {
             font-size: 11px !important;
@@ -22341,6 +22341,7 @@
            transition: all 0.3s;
            text-align: center;
            padding: 0;
+           background: #222 !important;
        }
     
        body div#smartfront__app .product-application--tags .tags--tag.tag-discount *{
@@ -22443,6 +22444,7 @@
        body div#smartfront__app .content--product-application .product-application--prices-product .prices-product--sale-price {
            font-size: 22px;
            font-weight: 800;
+           color: #222 !important;
        }
     
        body div#smartfront__app .content--product-application .product-application--prices-product .prices-product--sale-price b {
@@ -22514,6 +22516,7 @@
        body div#smartfront__app .content--product-application .product-application--prices-product .prices-product--installments-product .installments-product--quantity,
        body div#smartfront__app .content--product-application .product-application--prices-product .prices-product--installments-product .installments-product--price {
            font-weight: 700;
+           color: #222 !important;
        }
        
        body div#smartfront__app .content--product-application * {
@@ -22569,7 +22572,7 @@
        body div#smartfront__app .body-app--product-listing-carousel .owl-nav i {
            cursor: pointer;
            width: 44px;
-           background: #d00b11;
+           background: #222;
            border-radius: 100%;
            box-shadow: 1px 1px 20px -10px rgb(17 17 17 / 48%);
            height: 44px;
@@ -22620,7 +22623,7 @@
        
        body div#smartfront__app .body-app--product-listing-carousel .owl-nav > *:not(.disabled):hover i {
            opacity: 1;
-           background: #ff0000;
+           background: #000;
        }
     
     }
@@ -24160,3 +24163,213 @@ div#menu-lampada,
 
 
  }
+
+
+
+ /* BLOCOS DINAMICOS EM ABA */
+@media screen {
+
+    .blocos-dinamicos-em-abas {
+        margin-top: 20px;
+        height: 500px;
+        position: relative;
+        display: none;
+        margin-bottom: 25px !important;
+    }
+
+    .blocos-dinamicos-em-abas.bloco-ativo {
+        display: block;
+    }
+    
+    .blocos-dinamicos-em-abas .blocos-dinamicos-abas {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .blocos-dinamicos-em-abas .blocos-dinamicos-abas span {
+        font-family: 'Francois One', sans-serif !important;
+        text-transform: uppercase;
+        font-size: 21px;
+        letter-spacing: -.5px;
+        margin: 0;
+        color: #222;
+        padding: 13px 0px;
+        display: block;
+        transition: all 0.3s;
+    }
+    
+    .blocos-dinamicos-em-abas .blocos-dinamicos-abas > * {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+        cursor: pointer;
+        border-top: 2px solid #222 !important;
+        position: relative;
+    }
+    
+    .blocos-dinamicos-em-abas .blocos-dinamicos-abas > *:first-child {
+        border-left: 1px solid #ddd;
+    }
+
+    /*.blocos-dinamicos-em-abas .blocos-dinamicos-abas > *:not(:last-child) {
+        border-right: 1px solid #ddd;
+    }*/
+
+    .blocos-dinamicos-em-abas .blocos-dinamicos-abas > *:not(:last-child):after {
+        content: "";
+        position: absolute;
+        right: 0;
+        height: 100%;
+        background: #ddd;
+        display: block;
+        width: 1px;
+        top: 0;
+    }
+    
+    .blocos-dinamicos-em-abas .blocos-dinamicos-abas > *:last-child {
+        border-right: 1px solid #ddd;
+        /*padding-right: 4px;*/
+    }
+
+    .blocos-dinamicos-em-abas div#smartfront__app .body-app--product-listing-carousel .content--product-application:before {
+        transform: translateX(-1px) !important;
+    }
+    
+    .blocos-dinamicos-em-abas .blocos-dinamicos-abas-conteudo .content-app--header-app {
+        display: none !important;
+    }
+    
+    .blocos-dinamicos-em-abas .blocos-dinamicos-abas > *:not(.aba-ativa) span {
+        color: #9f9f9f;
+    }
+    
+    .blocos-dinamicos-em-abas .blocos-dinamicos-abas > *:not(.aba-ativa):hover span {
+        color: #707070;
+    }
+
+    .blocos-dinamicos-abas-conteudo {
+        position: relative;
+    }
+
+    .blocos-dinamicos-em-abas .blocos-dinamicos-abas-conteudo > * {
+        opacity: 1;
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    
+    .blocos-dinamicos-em-abas .blocos-dinamicos-abas-conteudo > *:not(.aba-conteudo-ativa) {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .blocos-dinamicos-em-abas .iluminim-loading {
+        width: 100%;
+        text-align: center;
+        padding: 170px 0 172px 0;
+        border-left: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+        box-sizing: border-box;
+    }
+
+    .blocos-dinamicos-em-abas div#smartfront__app+.iluminim-loading {
+        display: none!important;
+    }
+
+    .blocos-dinamicos-em-abas div#smartfront__app.smartfrontapps-compre-junto .content-app--body-app {
+        padding-top: 15px;
+        padding-bottom: 25px;
+    }
+    
+    .blocos-dinamicos-em-abas div#smartfront__app.smartfrontapps-compre-junto .product-application--image {
+        height: 158px;
+    }
+    
+    body .blocos-dinamicos-em-abas div#smartfront__app.smartfront_model_compre-junto .product-application--name * {
+        height: 36px !important;
+    }
+    
+    .blocos-dinamicos-em-abas div#smartfront__app.smartfront__smartfrontapps-produtos-similares .content--product-application,
+    .blocos-dinamicos-em-abas div#smartfront__app.smartfront__smartfrontapps-kits-produtos-iluminim .content--product-application {
+        min-height: 435px;
+    }
+
+
+    
+    .blocos-dinamicos-em-abas div#smartfront__app.smartfront__smartfrontapps-produtos-similares .body-app--product-listing-carousel {
+        border: none !important;
+    }
+    
+    .blocos-dinamicos-em-abas div#smartfront__app.smartfront__smartfrontapps-produtos-similares .content-app--body-app {
+        border-top: 0 !important;
+    }
+    
+    .blocos-dinamicos-em-abas div#smartfront__app.smartfront__smartfrontapps-produtos-similares .product-application--image {
+        max-height: 190px !important;
+        height: 190px !important;
+    }
+    
+    .blocos-dinamicos-em-abas div#smartfront__app.smartfront__smartfrontapps-produtos-similares a .product-application--name, 
+    .blocos-dinamicos-em-abas div#smartfront__app.smartfront__smartfrontapps-produtos-similares a .prices-product--price, 
+    .blocos-dinamicos-em-abas div#smartfront__app.smartfront__smartfrontapps-produtos-similares a .prices-product--sale-price, 
+    .blocos-dinamicos-em-abas div#smartfront__app.smartfront__smartfrontapps-produtos-similares a .prices-product--installments-product, 
+    .blocos-dinamicos-em-abas div#smartfront__app.smartfront__smartfrontapps-produtos-similares a .product-application--prices-product .prices-product--price-ticket:before {
+        display: block !important;
+    }
+    
+    .blocos-dinamicos-em-abas  div#smartfront__app .content--product-application .product-application--prices-product .prices-product--sale-price {
+        color: #222 !important;
+    }
+    
+    .blocos-dinamicos-em-abas  div#smartfront__app .content--product-application .product-application--prices-product .prices-product--installments-product .installments-product--quantity, 
+    .blocos-dinamicos-em-abas  div#smartfront__app .content--product-application .product-application--prices-product .prices-product--installments-product .installments-product--price {
+        color: #222 !important;
+    }
+    
+    .blocos-dinamicos-em-abas div#smartfront__app.smartfrontapps-compre-junto .body-app--product-primary.body-app--accessed-product {
+        height: 365px;
+    }
+    
+    .blocos-dinamicos-em-abas div#smartfront__app.smartfrontapps-compre-junto .content-app--body-app {
+        padding-top: 45px !important;
+    }
+
+    .blocos-dinamicos-em-abas div#smartfront__app.smartfrontapps-compre-junto .body-app--info-app .info-app-prices--save-money {
+        color: #222 !important;
+    }
+    
+    .blocos-dinamicos-em-abas div#smartfront__app.smartfrontapps-compre-junto .total-price--price {
+        color: #000 !important;
+    }
+    
+    body div#smartfront__app .content-app--header-app {
+        border-top-color: #000 !important;
+    }
+
+    body div#smartfront__app .content-app--header-app .header-app--title {
+        color: #000 !important;
+    }
+
+    .blocos-dinamicos-abas.aba-unitaria .bloco-dinamico-aba span {
+        text-align: left;
+        padding-left: 25px !important;
+    }
+
+    /* DESVINCULAÇÃO */
+    .produto-com-aplicacoes-desvinculadas .blocos-dinamicos-em-abas {
+        display: none !important;
+    }
+    
+    .produto-com-aplicacoes-desvinculadas div#smartfront__app .content-app--header-app {
+        margin-top: 35px !important;
+    }
+    
+    .produto-com-aplicacoes-desvinculadas .produto > .row-fluid:first-child + div[id] div#smartfront__app .content-app--header-app {
+        margin-top: 15px !important;
+    }
+
+
+}
