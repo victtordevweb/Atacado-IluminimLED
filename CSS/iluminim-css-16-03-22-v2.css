@@ -24373,3 +24373,92 @@ div#menu-lampada,
 
 
 }
+
+
+
+/* DESTAQUES PRODUTOS LATERAIS */
+@media screen {
+
+    .secao-principal .coluna.span3 div#smartfront__app .header-app--title {
+        font-size: 19px !important;
+    }
+    
+    .secao-principal .coluna.span3 div#smartfront__app .content-app--header-app {
+        padding-left: 20px !important;
+        border-color: #ddd;
+        margin-top: 0 !important;
+        height: 51px !important;
+        min-height: 51px;
+        box-sizing: border-box;
+        padding-bottom: 2px !important;
+    }
+    
+    .secao-principal .coluna.span3 div#smartfront__app .content-app--body-app {
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-top: 0;
+    }
+    
+    .secao-principal .coluna.span3 div#smartfront__app .content-app--body-app .content--product-application > a {
+        display: flex;
+        padding: 5px;
+        align-items: center;
+        border-color: #ddd;
+    }
+    
+    .secao-principal .coluna.span3 div#smartfront__app .content-app--body-app .product-application--image {
+        min-width: 90px;
+        height: 110px;
+        margin: 0;
+        max-width: 90px;
+    }
+    
+    .secao-principal .coluna.span3 div#smartfront__app .content-app--body-app .product-application--informations {
+        text-align: left;
+        padding-left: 10px;
+    }
+    
+    .secao-principal .coluna.span3 div#smartfront__app .content-app--body-app .name--text {
+        font-size: 11px !important;
+        line-height: 14px !important;
+        height: 42px;
+        margin: 0px 0 0 0;
+        -webkit-line-clamp: 3;
+    }
+    
+    .secao-principal .coluna.span3 div#smartfront__app .content-app--body-app .product-application--name:after {
+        font-size: 16px;
+        letter-spacing: 0.2px;
+    }
+    
+    .secao-principal .coluna.span3 div#smartfront__app .content-app--body-app .prices-product--price {
+        display: none;
+    }
+    
+    .secao-principal .coluna.span3 div#smartfront__app .content-app--body-app .prices-product--installments-product {
+        display: none;
+    }
+    
+    .secao-principal .coluna.span3 div#smartfront__app .content-app--body-app .prices-product--sale-price {
+        font-size: 19px !important;
+        color: #d00b11 !important;
+    }
+    
+    .secao-principal .coluna.span3 div#smartfront__app .content-app--body-app .prices-product--sale-price b {
+        font-weight: 900;
+    }
+    
+    .secao-principal .coluna.span3 div#smartfront__app .content-app--body-app .content--product-application > a:hover {
+        border-color: #d00b11;
+    }
+    
+    .secao-principal .coluna.span3 div#smartfront__app .content-app--body-app .content--product-application {
+        margin-bottom: 15px;
+    }
+    
+    .secao-principal .coluna.span3 div#smartfront__app .content-app--body-app .content--product-application:last-child {
+        margin-bottom: 0 !important;
+    }
+
+
+}
