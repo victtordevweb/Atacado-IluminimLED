@@ -2795,7 +2795,7 @@ var PaginaCategoria = {
 
       let banner_cronometro = {
 
-         ['/lampada-led-bulbo']: {
+         /*['/lampada-led-bulbo']: {
             imagem: 'https://cdn.awsli.com.br/257/257163/arquivos/lamp-bulbo-10-09-21.jpg',
             link: '/lampada-led-bulbo-9w-residencial-branco-frio-bivolt',
             nome_1: 'Lâmpada LED Bulbo 9w',
@@ -3065,8 +3065,72 @@ var PaginaCategoria = {
             nome_1: 'Luminária Plafon 18w LED',
             nome_2: 'Sobrepor Branco Frio',
             porcentagem_desconto: '57',
+         },*/
+
+         ['/refletores-holofotes-led']: {
+            imagem: 'https://cdn.awsli.com.br/300x300/1234/1234739/produto/48396536/refletor-microled-ultra-thin-200w-branco-frio-black-type-ff973033.jpg',
+            link: '/refletor-microled-ultra-thin-200w-branco-frio-black-type',
+            nome_1: 'Refletor MicroLED Ultra Thin',
+            nome_2: '200W Branco Frio Black Type',
+            porcentagem_desconto: '15',
+         },
+
+         ['/luminarias-plafons-led']: {
+            imagem: 'https://cdn.awsli.com.br/300x300/1234/1234739/produto/48396045/luminaria-plafon-62x62-48w-led-embutir-branco-frio-borda-branca-e0c2506c.jpg',
+            link: '/luminaria-plafon-62x62-48w-led-embutir-branco-frio-borda-branca',
+            nome_1: 'Luminária Plafon 62x62 48W',
+            nome_2: 'LED Embutir Branco Frio Borda Branca',
+            porcentagem_desconto: '52',
+         },
+
+         ['/lampadas-led']: {
+            imagem: 'https://cdn.awsli.com.br/300x300/1234/1234739/produto/75673665/lampada-led-tubular-ho-65w-240m-t8-branco-frio-inmetro-304b8de3.jpg',
+            link: '/lampada-led-tubular-ho-65w-240m-t8-branco-frio-inmetro',
+            nome_1: 'Lampada LED Tubular HO 65w',
+            nome_2: '2,40m T8 Branco Frio | Inmetro',
+            porcentagem_desconto: '46',
          },
      
+         ['/fita-de-led']: {
+            imagem: 'https://cdn.awsli.com.br/300x300/1234/1234739/produto/48394065/fita-led-3528-branca-fria-rolo-5m-a-prova-dagua-24w-5f8ee15b.jpg',
+            link: '/fita-led-3528-branca-fria-rolo-5m-24w',
+            nome_1: 'Fita LED 3528 Branca Fria',
+            nome_2: 'Rolo 5m - 24W',
+            porcentagem_desconto: '37',
+         },
+
+         ['/acessorios-led']: {
+            imagem: 'https://cdn.awsli.com.br/300x300/1234/1234739/produto/48394317/fonte-chaveada-12v-5a-para-led-d24f74be.jpg',
+            link: '/fonte-chaveada-12v-5a-para-led',
+            nome_1: 'Fonte Chaveada',
+            nome_2: '12v 5A para LED',
+            porcentagem_desconto: '46',
+         },
+
+         ['/pendente']: {
+            imagem: 'https://cdn.awsli.com.br/300x300/1234/1234739/produto/112952008/a3892d0f05.jpg',
+            link: '/pendente-triangular-de-madeira-led-embutido-branco-quente-',
+            nome_1: 'Pendente Triangular de Madeira',
+            nome_2: 'LED Embutido Branco Quente',
+            porcentagem_desconto: '34',
+         },
+
+         ['/spot-led']: {
+            imagem: 'https://cdn.awsli.com.br/300x300/1234/1234739/produto/48396623/spot-balizador-led-5w-branco-morno-para-piso-b448c4e3.jpg',
+            link: '/spot-balizador-led-5w-branco-morno-para-piso',
+            nome_1: 'Spot Balizador LED',
+            nome_2: '5W Branco Morno para Piso',
+            porcentagem_desconto: '24',
+         },
+
+         ['/lustre']: {
+            imagem: 'https://cdn.awsli.com.br/300x300/1234/1234739/produto/128704201/1b4856ad32.jpg',
+            link: '/lustre-candelabro-de-cristal-70-x-47-x-70-cm',
+            nome_1: 'Lustre Candelabro de Cristal',
+            nome_2: '70 x 47 x 70 cm',
+            porcentagem_desconto: '21',
+         },
+
      }
       
       let banner = banner_cronometro[window.location.pathname];
