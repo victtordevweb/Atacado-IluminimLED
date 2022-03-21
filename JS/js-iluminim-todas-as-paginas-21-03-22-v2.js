@@ -3822,6 +3822,28 @@ var TodasAsPaginas = {
 
    },
 
+   botaoAdicionarCarrinhoListagem(){
+
+      if($(`div#listagemProdutos .listagem-item`).length > 0 && ILUMINIM_UTILS.usuario.logado()){
+
+         $(`div#listagemProdutos .listagem-item`).each(function(){
+
+            $(this).addClass('produto-adicionar-direto-carrinho');
+
+            let idProd = $(this).attr('class').split('prod-id-')[1].split(' ')[0];
+
+            $(this).find('.info-produto').after(`
+               <div class="adicionar-direto-carrinho">
+                     <a href="/carrinho/produto/${idProd}/adicionar">Adicionar ao carrinho</a>
+               </div>
+            `);
+
+         });
+
+      }
+
+  },
+
    iniciar() { //INICIAR SCRIPTS DA PÁGINA;
 
       this.validarUsuarioLogado();
@@ -3882,6 +3904,7 @@ var TodasAsPaginas = {
       
       this.paginaNaoEncontrada();
       this.removerNewsletterMobile();
+      this.botaoAdicionarCarrinhoListagem();
 
       this.ajusteCarousel(); //MANTER A BAIXO
       this.adicionarScrollLock(); //MANTER ABAIXO
