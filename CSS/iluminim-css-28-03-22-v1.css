@@ -9671,6 +9671,10 @@
                width: 180px;
                min-height: 230px;
            }
+
+           .menu__nivel-dois.menu__nivel-dois--oferta-da-semana div#smartfront__app .content--product-application > a {
+            min-height: 291px;
+            }
            
            .menu__nivel-dois.menu__nivel-dois--oferta-da-semana div#smartfront__app .content--product-application > a:hover {
                border-color: var(--cor-secundaria);
