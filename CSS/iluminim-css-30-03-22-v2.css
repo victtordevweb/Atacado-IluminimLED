@@ -20976,7 +20976,7 @@
     
            .produto .acoes-produto .comprar a.botao-comprar {
                width: 100%;
-               background: #00b22d;
+               /*background: #00b22d;*/
                box-sizing: border-box;
                padding: 3px 0 0 0 !important;
            }
@@ -24720,6 +24720,28 @@ div#menu-lampada,
             background: #fff;
         }
         
+        .usuario-logado .listagem-item.indisponivel .adicionar-direto-carrinho {
+            display: none !important;
+        }
+        
+        html body.usuario-logado div#listagemProdutos .listagem-item.produto-adicionar-direto-carrinho {
+            padding-bottom: 27px !important;
+            min-height: auto;
+            min-height: 370px;
+        }
+        
+        .listagem-item.indisponivel .produto-avise .avise-me-list {
+            box-shadow: none !important;
+        }
+
+        .usuario-deslogado .produto .principal .acoes-produto .comprar {
+            float: left !important;
+            width: 100% !important;
+        }
+        
+        .usuario-deslogado .produto .principal .acoes-produto .comprar a.botao.botao-comprar.principal.grande {
+            width: 100% !important;
+        }
 
     }
 
