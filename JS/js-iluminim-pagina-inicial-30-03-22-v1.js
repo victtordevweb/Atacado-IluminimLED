@@ -1291,7 +1291,7 @@ var PaginaInicial = {
       //this.bannerYoutubeMobile();
       //this.bannerBaixeNossoAppMobile();
       this.historicoDeNavegacaoMobile();
-      this.newsletterMobile();
+      //this.newsletterMobile();
       //this.naveguePorCategoria();
       this.removerBotaoProdutoAdicionado();
 

@@ -10402,7 +10402,7 @@
         }
 
         .bloco-triplo-personalizado .bloco-personalizado.bloco-produtos-peronalizados.bloco-2 .topo-bloco-produtos-peronalizados:before {
-            border-color: #ff0000;
+            border-color: #fff;
         }
 
         .bloco-triplo-personalizado .bloco-personalizado.bloco-produtos-peronalizados.bloco-2 .bloco-produtos-titulo {
@@ -14830,13 +14830,13 @@
 
 
        .secao-banners .banner.cheio .flex-direction-nav > * > * {
-            width: 44px !important;
+            width: 30px !important;
             background: var(--cor-secundaria) !important;
             border-radius: 100%;
             box-shadow: 1px 1px 20px -10px rgb(17 17 17 / 48%);
-            height: 44px !important;
+            height: 30px !important;
             color: #fff !important;
-            line-height: 44px;
+            line-height: 30px;
             transition: all .4s !important;
             font-size: 0;
             text-decoration: none !important;
@@ -14859,17 +14859,17 @@
         
         .secao-banners .banner.cheio .flex-direction-nav > * > .flex-next:after {
             content: "\f105" !important;
-            left: 18px;
+            left: 11px;
         }
         
         .secao-banners .banner.cheio .flex-direction-nav > * > .flex-prev:after {
             content: "\f104" !important;
-            left: 16px;
+            left: 11px;
         }
         
         .secao-banners .banner.cheio .flex-direction-nav > * > *:after {
             font-family: 'FontAwesome' !important;
-            font-size: 29px !important;
+            font-size: 22px !important;
             position: absolute !important;
             text-indent: 0 !important;
         }
@@ -20931,6 +20931,10 @@
                border: none;
                padding-bottom: 0;
            }
+
+           .pagina-produto .cep {
+                margin-bottom: 30px !important;
+            }
     
            .produto .cep ul {
                 width: 100%;
@@ -24626,6 +24630,97 @@ div#menu-lampada,
 
     .usuario-logado .listagem-item .acoes-produto {
         display: none;
+    }
+
+}
+
+
+
+/* AJUSTES 30-03-2022 */
+@media screen {
+
+    @media (max-width: 767px){
+
+        .pagina-produto .linha-avaliacao a.veja-quem-recomendou {
+            display: none !important;
+        }
+
+        div#smartfront__app.smartfront__smartfrontapps-historico-de-navegacao {
+            background: #f5f2f2 !important;
+        }
+
+        body div#smartfront__app.smartfront__smartfrontapps-historico-de-navegacao .product-application--prices-product.price-only-logged {
+            padding-bottom: 70px !important;
+        }
+
+        /*body.pagina-nao-encontrada div#smartfront__app .content--product-application .content-link--button {
+            margin: -50px 10px 4px 7px !important;
+            box-sizing: border-box;
+            max-width: 96% !important;
+        }*/
+
+        body.pagina-nao-encontrada div#smartfront__app {
+            display: none !important;
+        }
+
+        #rodape .rodape-bloco-selos-de-seguranca {
+            background: #000 !important;
+        }
+
+        div#OfertaSemanaCustomizada .bloco-produtos-titulo {
+            margin: 0 0 18px 0;
+            text-align: center;
+            justify-content: center;
+        }
+        
+        div#OfertaSemanaCustomizada .bloco-categoria--produtos {
+            padding-top: 12px !important;
+        }
+        
+        div#OfertaSemanaCustomizada .bloco-produtos-titulo a {
+            margin-bottom: 14px !important;
+        }
+
+        div#OfertaSemanaCustomizada .listagem-item .info-produto {
+            padding-top: 15px !important;
+        }
+
+        div#OfertaSemanaCustomizada .banner--conteudo-mobile {
+            border-top-color: #eaeaea !important;
+        }
+
+        body.pagina-categoria.categoria-3932972 .conteudo-botao-filtro-mobile {
+            display: none !important;
+        }
+
+        .pagina-categoria .lateral.outras.filtro-coluna.nao-encontrou-o-que-procurava h4.titulo.cor-secundaria.text-center {
+            text-align: left !important;
+        }
+
+
+        .bloco-triplo-personalizado .bloco-personalizado.bloco-produtos-peronalizados.bloco-2 {
+            margin: 0;
+        }
+        
+        .pagina-inicial div#corpo {
+            margin-top: 0;
+        }
+        
+        .bloco-triplo-personalizado .bloco-personalizado.bloco-produtos-peronalizados.bloco-2 .body-app--content.body-app--product-listing {
+            padding-top: 14px !important;
+            padding-bottom: 8px !important;
+        }
+        
+        .bloco-triplo-personalizado .bloco-personalizado.bloco-produtos-peronalizados.bloco-3 .body-app--content.body-app--product-listing {
+            padding-top: 14px !important;
+        }
+        
+        .bloco-triplo-personalizado .bloco-personalizado.bloco-produtos-peronalizados.bloco-2 {
+            padding-top: 20px !important;
+            background: #fff;
+        }
+        
+
     }
 
 }

@@ -1125,7 +1125,7 @@ window.ILUMINIM_UTILS = {
                        <a href="?sort=-preco" rel="nofollow"><i class="icon-dollar"></i>Maior preço</a>
                </li>
                <li>
-                       <a href="#!" rel="nofollow"><i class="icon-star"></i>Lançamentos</a>
+                       <a href="?sort=ultimos_produtos" rel="nofollow"><i class="icon-star"></i>Lançamentos</a>
                </li>
                </ul>
            </div>

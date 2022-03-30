@@ -1987,29 +1987,6 @@ var TodasAsPaginas = {
                   </div>
                </div>
          
-               <div class="span12 rodape-bloco-baixe-nosso-app">
-                  <span class="titulo titulo-rodape">Baixe nosso aplicativo</span> 
-                  <div class="conteudo-rodape">
-         
-                     <div class="bloco-items">
-                        <ul>
-                           <li>
-                              <a href="javascript:void(0);" rel="noopener">
-                                 <img src="https://cdn.awsli.com.br/257/257163/arquivos/icon-googleplay-06-10-21.png" alt="Play Store" title="Play Store">
-                              </a>
-                           </li>
-                           
-                           <li>
-                              <a href="javascript:void(0);" rel="noopener">
-                                 <img src="https://cdn.awsli.com.br/257/257163/arquivos/icon-apple-store-06-10-21.png" alt="App Store" title="App Store">
-                              </a>
-                           </li>
-                        </ul>
-                     </div>
-         
-                  </div>
-               </div>
-         
                <div class="span12 rodape-bloco-formas-de-pagamento">
                   <span class="titulo titulo-rodape">Formas de pagamento</span> 
                   <div class="conteudo-rodape">
@@ -3640,7 +3617,7 @@ var TodasAsPaginas = {
 
    creditosRodape(){
 
-      $('div#rodape .span9.span12 p').html("2021 © ILUMINIM LED® é marca registrada de iluminim.com.br | CNPJ: 23.429.903/0001-98. Todos direitos reservados. Todas as fotos expostas na iluminim.com.br são meramente ilustrativas e de nossa propriedade, estando protegidas pela Lei Federal de Direito Autoral. Estão, portanto, proibidas todas e quaisquer cópias das fotos aqui exibidas, sem a autorização expressa do autor, proprietário e gestor da iluminim.com.br");
+      $('div#rodape .span9.span12 p').html(`${new Date().getFullYear()} © ILUMINIM LED® é marca registrada de iluminim.com.br | CNPJ: 23.429.903/0001-98. Todos direitos reservados. Todas as fotos expostas na iluminim.com.br são meramente ilustrativas e de nossa propriedade, estando protegidas pela Lei Federal de Direito Autoral. Estão, portanto, proibidas todas e quaisquer cópias das fotos aqui exibidas, sem a autorização expressa do autor, proprietário e gestor da iluminim.com.br`);
    
    },
 
