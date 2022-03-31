@@ -2055,6 +2055,23 @@ var TodasAsPaginas = {
          </div>
       `);
 
+      if(!ILUMINIM_UTILS.screen.isMobile()) return;
+      
+      $('div#rodape .lista-selos-de-seguranca').addClass('carousel-target');
+      $('div#rodape .lista-selos-de-seguranca').owlCarousel({
+         loop: false,
+         margin: 0,
+         autoHeight: true,
+         nav: true,
+         dots: false,
+         navText: ['<i class="icon-angle-left"></i>', '<i class="icon-angle-right"></i>'],
+         responsive: {
+            0: {
+               items: 2
+            },
+         }
+      });
+
    },
 
    minimizarRodape(){
