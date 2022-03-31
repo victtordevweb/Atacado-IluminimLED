@@ -588,7 +588,7 @@ var PaginaProduto = {
       /*if($('body.pagina-produto.produto-26482900').length > 0){
          return;
       }*/
-  
+   
       $('#descricao table.table.table-striped td').each(function(){
          let text = $(this).text().trim();
          if(text == ''){
@@ -610,22 +610,22 @@ var PaginaProduto = {
          }
          
      });
-  
+   
      
       $('div#descricao img[src="https://cdn.awsli.com.br/257/257163/arquivos/itensTITULO.png"]').closest('p').replaceWith(`
          <div class="descricao-titulo" data-referencia="Itens Inclusos">
                <span>Itens Inclusos</span>
          </div>
       `);
-  
-  
+   
+   
       $('div#descricao img[src="https://cdn.awsli.com.br/257/257163/arquivos/caracteristicasTITULO.png"]').closest('p').replaceWith(`
          <div class="descricao-titulo descricao-titulo-caracteristicas-tecnicas" data-referencia="Características Técnicas">
                <span>Características Técnicas</span>
          </div>
       `);
-  
-  
+   
+   
       $('div#descricao img[src="https://cdn.awsli.com.br/257/257163/arquivos/confiratitulo.png"]').closest('p').replaceWith(`
          <div class="descricao-titulo descricao-titulo-o-que-dizem-nossos-clientes" data-referencia="Confira o que dizem nossos clientes">
                <span>Confira o que dizem nossos clientes</span>
@@ -638,85 +638,120 @@ var PaginaProduto = {
          div#descricao img[src*="pimgpsh_fullsize_distr"],
          div#descricao img[src*="gratis-pagina-produto-08-04-4545-13-08"]
       `).remove(); 
-  
+   
       $('#descricao .descricao-titulo').each(function(){
-  
+   
          if( $(this).parents('.descricao-conteudo-accordion').length > 0 ){
             return;
          }
-  
+   
          $(this).nextUntil('.descricao-titulo').wrapAll(`<div class="descricao-conteudo" data-referencia="${$(this).attr('data-referencia')}"></div>`);
-  
+   
          $(this).wrap(`<div class="descricao-conteudo-accordion" data-referencia="${$(this).attr('data-referencia')}"></div>`);
-  
+   
          $(this).parent().next('.descricao-conteudo').insertAfter(this);
-  
+   
       });
-  
-      if( $('#descricao > div.new__description__text:nth-child(2)').length > 0){
-  
+   
+      if($('#descricao .newdesc-ilm-refletor').children().length == 1){
+         $('#descricao .newdesc-ilm-refletor').children().unwrap('');
+         $('#descricao .span6.topo-produto').children().unwrap('');
+         $('#descricao .topo-new-desc-slim').children().unwrap('').wrap('<p></p>');      
+      }
+   
+      if($('.texto_descricao').length > 0){
+         let text = $('.texto_descricao').text();
+         $('.texto_descricao').before(`<p style="margin: 0px 0px 10px; padding: 0px; color: rgb(102, 102, 102); font-family: 'Open Sans'; font-size: 14px;">${text}</p>`);
+         $('.texto_descricao').remove();
+      }
+   
+      if($('#descricao .newdesc-ilm-refletor').length == 1){
+         $('#descricao .newdesc-ilm-refletor .topo-new-desc-slim').remove();
+         $('#descricao .newdesc-ilm-refletor .descricao-prod-new').unwrap('');
+         let html = $('#descricao .desc-box-banner.text-center').html();
+         $('#descricao .descricao-prod-new').before(html);
+         $('#descricao .descricao-prod-new').remove();
+      }
+   
+      if($('#descricao > div.new__description__text:nth-child(2)').length > 0){
+   
          $('#descricao > p').first().nextUntil('.descricao-conteudo-accordion').wrapAll(`
             <div class="descricao-conteudo descricao"></div>
          `);
-  
+   
+         console.log('AQUI 1');
+   
       }else {
-  
-         if($('#descricao > div:nth-child(2)').length > 0){
-  
+   
+         if($('#descricao > div:nth-child(2):not(.descricao-conteudo-accordion)').length > 0){
+   
+            console.log('AQUI 2');
             $('#descricao > div:nth-child(1) + ~').first().nextUntil('.descricao-conteudo-accordion').wrapAll(`
                <div class="descricao-conteudo descricao"></div>
             `);
-  
+   
          }else if($('#descricao > div:first-child').length > 0){
+   
+            console.log('AQUI 3');
             
             if($('#descricao > div:first-child + *:empty').length == 0){
-  
+   
                $('#descricao > div:first-child').first().nextUntil('.descricao-conteudo-accordion').wrapAll(`
                   <div class="descricao-conteudo descricao"></div>
                `);
-  
+   
+               console.log('AQUI 4');
+   
             }else {
-  
+   
                $('#descricao > div:first-child ~ *').first().nextUntil('.descricao-conteudo-accordion').wrapAll(`
                   <div class="descricao-conteudo descricao"></div>
                `);
-  
+   
+               console.log('AQUI 5');
+   
             }
-  
+   
          }else{
-  
+   
             /*$('#descricao > p').first().nextUntil('.descricao-conteudo-accordion').prevObject.prevObject.wrapAll(`
                <div class="descricao-conteudo descricao"></div>
             `);*/
-  
+   
+            console.log('AQUI 6');
+   
             if($('#descricao > div:first-child + *:empty').length == 0){
-  
+   
+               console.log('AQUI 7');
+   
                $('#descricao > p').first().nextUntil('.descricao-conteudo-accordion').prevObject.prevObject.wrapAll(`
                   <div class="descricao-conteudo descricao"></div>
                `);
-  
+   
             } else {
-  
+   
                $('#descricao > p').first().nextUntil('.descricao-conteudo-accordion').wrapAll(`
                   <div class="descricao-conteudo descricao"></div>
                `);
-  
+   
+               console.log('AQUI 8');
+   
             }
-  
+   
          }
    
       }
-  
+   
       $('#descricao > .descricao-conteudo.descricao').before(`
          <div class="descricao-titulo descricao-titulo-descricao">
                <span>Descrição</span>
          </div>
       `);
-  
+   
       $('#descricao > .descricao-titulo.descricao-titulo-descricao, #descricao > .descricao-conteudo.descricao').wrapAll(`
          <div class="descricao-conteudo-accordion accordion-descricao"></div>
       `);
-  
+   
       $('#descricao').prepend(`
          <div class="descrica-tarja">
             <div class="descricao-tarja-titulo">
@@ -724,57 +759,57 @@ var PaginaProduto = {
             </div>
          </div>
       `);
-  
+   
       $('#descricao .descricao-conteudo-accordion.accordion-descricao img[src*="pimgpsh_fullsize_distr"]').parent().remove(); //REMOVER TARJA FRETE LARANJA FRETE GRÁTIS
-  
+   
       $('#descricao *').each(function(){ //REMOVENDO ITENS VAZIO;
          var text = $(this).html();
          if(text == '&nbsp;'){
                $(this).remove();
          }
       });
-  
+   
       $('#descricao table.table.table-striped').each(function(){ //REMOVENDO TABELAS VAZIAS
          if( $(this).find('tr').length < 2 ){
                $(this).remove();
          }
       });
-  
+   
       $('#descricao').addClass('descricao-ativa');
-  
+   
       $(document).on('click', '.descricao-titulo', function(){
-  
+   
          $(this).parent().toggleClass('accordion-active');
          $(this).next().slideToggle(500);
-  
+   
       });
    
-      this.adicionarBeneficiosLED();
-      this.duvidasRapidas();
-      this.cuidadoMaximoComSuaEncomenda();
+      PaginaProduto.adicionarBeneficiosLED();
+      PaginaProduto.duvidasRapidas();
+      PaginaProduto.cuidadoMaximoComSuaEncomenda();
       //this.iluminimLEDExplica();
       //this.doacoesRealizadas();
       //this.compareOsModelos();
-  
+   
       $('.descricao-conteudo').hide();
-  
+   
       if( $('.descricao-conteudo.descricao').text() == '' ||  $('.descricao-conteudo.descricao').text().trim().length < 30){
       
          $('.descricao-conteudo.descricao').parents('.descricao-conteudo-accordion.accordion-descricao').remove();
       
       }
-  
+   
       if( ILUMINIM_UTILS.screen.isMobile() ){
-  
+   
          /*$(`
             .descricao-conteudo-accordion.accordion-descricao .descricao-titulo,
             .descricao-conteudo-accordion[data-referencia="Itens Inclusos"] .descricao-titulo,
             .descricao-conteudo-accordion[data-referencia="Características Técnicas"] .descricao-titulo,
             .descricao-conteudo-accordion.compare-os-modelos .descricao-titulo
          `).click();*/
-  
+   
       } else {
-  
+   
          /*$(`
          .descricao-conteudo-accordion.accordion-descricao .descricao-titulo,
          .descricao-conteudo-accordion.beneficios-led .descricao-titulo,
@@ -784,9 +819,9 @@ var PaginaProduto = {
          .descricao-conteudo-accordion[data-referencia="Confira o que dizem nossos clientes"] .descricao-titulo,
          .descricao-conteudo-accordion.cuidado-maximo-com-sua-encomenda .descricao-titulo
       `).click();*/
-  
+   
       }
-  
+   
    },
 
    adicionarBeneficiosLED(){
