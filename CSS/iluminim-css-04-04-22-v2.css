@@ -3863,7 +3863,7 @@
     
        .pagina-personalizada-oferta-da-semana .banner.cheio .slides .cronometro-banner {
            position: absolute;
-           bottom: 33.4%;
+           bottom: 34.8%;
            width: 100%;
            padding: 0 0 0 48%;
            box-sizing: border-box;
@@ -4206,14 +4206,14 @@
            }
 
            .pagina-personalizada-oferta-da-semana .banner.cheio .progress-countdown {
-                height: 8.4%;
-                bottom: 32%;
-                padding: 0 13.8% 0 13.8%;
+                height: 3.6%;
+                bottom: 23%;
+                padding: 0 7.2% 0 7.2%;
             }
             
-            .pagina-personalizada-oferta-da-semana .banner.cheio .slides .cronometro-banner ul.countdown-target li {
+            /*.pagina-personalizada-oferta-da-semana .banner.cheio .slides .cronometro-banner ul.countdown-target li {
                 color: #ffd51b;
-            }
+            }*/
             
             .pagina-personalizada-oferta-da-semana .banner.cheio .slides .cronometro-banner ul.countdown-target i {
                 font-size: 3.3vw;
@@ -4226,8 +4226,8 @@
             }
             
             .pagina-personalizada-oferta-da-semana .banner.cheio .slides .cronometro-banner {
-                padding: 0 0 0 64%;
-                bottom: 46.4%;
+                padding: 0 0 0 48%;
+                bottom: 29.3%;
             }
             
             .pagina-personalizada-oferta-da-semana .banner.cheio .slides .cronometro-banner ul.countdown-target {
