@@ -16049,10 +16049,31 @@
                 color: #6f6f6f !important;
             }
             
-            div#smartfront__app.smartfront__smartfrontapps-banners-produtos .content--product-application .prices-product--sale-price, 
+            /*div#smartfront__app.smartfront__smartfrontapps-banners-produtos .content--product-application .prices-product--sale-price, 
             div#smartfront__app.smartfront__smartfrontapps-banners-produtos .content--product-application .prices-product--price {
                 display: none !important;
-            }
+            }*/
+
+			div#smartfront__app.smartfront__smartfrontapps-banners-produtos .content--product-application .prices-product--sale-price {
+				font-size: 25px !important;
+			}
+
+			.usuario-deslogado div#smartfront__app.smartfront__smartfrontapps-banners-produtos .content-link--button.button-only-logged {
+				text-align: center;
+				height: 50px;
+				width: 80%;
+				margin: 20px 0 0 0;
+			}
+			
+			.usuario-deslogado div#smartfront__app.smartfront__smartfrontapps-banners-produtos .content-link--button.button-only-logged i {
+				/* position: static; */
+				font-size: 30px;
+			}
+			
+			.usuario-deslogado div#smartfront__app.smartfront__smartfrontapps-banners-produtos .content--product-application > a .product-application--informations:after {
+				display: none;
+			}
+			
             
             div#smartfront__app.smartfront__smartfrontapps-banners-produtos .content--product-application .product-application--prices-product .prices-product--price-ticket strong {
                 font-size: 65px;
@@ -16125,10 +16146,10 @@
                 font-weight: 700;
             }
 
-            div#smartfront__app.smartfront__smartfrontapps-banners-produtos .content--product-application .product-application--prices-product .prices-product--installments-product * {
+            /*div#smartfront__app.smartfront__smartfrontapps-banners-produtos .content--product-application .product-application--prices-product .prices-product--installments-product * {
                 color: #6f6f6f!important;
                 letter-spacing: -0.5px;
-            }
+            }*/
             
             div#smartfront__app.smartfront__smartfrontapps-banners-produtos .content--product-application .product-application--prices-product .prices-product--installments-product .installments-product--text-fees {
                 display: none;
