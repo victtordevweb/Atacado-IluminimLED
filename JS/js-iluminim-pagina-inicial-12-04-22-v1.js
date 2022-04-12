@@ -382,6 +382,95 @@ var PaginaInicial = {
       
    },
    
+   carrouselBannersPersonalizados(){
+
+	if(ILUMINIM_UTILS.screen.isMobile()){
+	   return;
+	}
+
+	const BannersPersonalizados = {
+
+	   ativarCarousel(){
+
+			 $('.banners-personalizados .carousel-target').owlCarousel({
+				loop:true,
+				autoplay:true,
+				autoplayTimeout:10000,
+				margin:0,
+				autoHeight: false,
+				nav:true,
+				dots: false,
+				navText: ['<i class="icon-angle-left"></i>', '<i class="icon-angle-right"></i>'],
+				responsive:{
+				   0: {
+						 items:1
+				   }
+				}
+			 });
+
+	   },
+	
+	   gerarObjeto(){
+	
+			 let objeto = [
+				{
+				   nome: 'Representante Comercial',
+				   imagem: 'https://cdn.awsli.com.br/1234/1234739/arquivos/E-COM_B2B_BANNERS_REPRESENTANTE_COMERCIAL-12-04-2022.png',
+				   link: '/pagina/seja-nosso-representante-comercial.html',
+				},
+				{
+				   nome: 'Pontos de Retirada',
+				   imagem: 'https://cdn.awsli.com.br/1234/1234739/arquivos/E-COM_B2B_BANNERS_PONTOS_DE_RETIRADA-12-04-2022.png',
+				   link: '/pagina/lojas-iluminim.html',
+				},
+			 ]
+
+			 return objeto;
+	
+	   },
+	
+	   gerarHTML(){
+	
+			 let objeto = this.gerarObjeto();
+	
+			 let htmlList = objeto.map(item=> {
+	
+				return `
+				   <div>
+						 <a href="${item.link}">
+							<img alt="${item.nome}" title="${item.nome}" src="${item.imagem}" width="1280" height="325">
+						 </a>
+				   </div>
+				`;
+	
+			 }).join('');
+	
+			 return `
+				<div class="banners-personalizados">
+				   <div class="lista-banners-personalizados carousel-target">
+						 ${htmlList}
+				   </div>
+				</div>
+			 `;
+	
+	   },
+	
+	   renderizar(){
+	
+			 let html = this.gerarHTML();
+	
+			 $('.bloco-triplo-personalizado').after(html);
+
+			 this.ativarCarousel();
+	
+	   }
+	
+	}
+	
+	BannersPersonalizados.renderizar();
+
+ },
+
    verTodosNasListagens(){
       
       $('#listagemProdutos a.titulo-categoria').each(function(){
@@ -1267,6 +1356,8 @@ var PaginaInicial = {
       this.bannerTarja(); //MANTER ORDEM
 
       this.blocoTriplo();
+
+	  this.carrouselBannersPersonalizados();
 
       ILUMINIM_UTILS.renderizarBotaoVoltarAoTopo();
 
