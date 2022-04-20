@@ -16224,11 +16224,12 @@
        @media (min-width: 767px){
 
             div#tarja_topo{
-                background: #070201;
+                background: #000 !important;
             }
             div#tarja_topo .conteiner {
                 padding-top: 0;
                 padding-bottom: 0;
+				background: #000 !important;
             }
     
             div#topo-principal {

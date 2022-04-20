@@ -3782,8 +3782,8 @@ var TodasAsPaginas = {
 
       $(`<div id="tarja_topo">
          <div class="container">
-            <a href="/ofertadasemana?sort=mais_vendidos">
-               <img src="https://blog.iluminim.com.br/wp-content/uploads/2021/10/tarja-led-ofertas-precos-imbativeis-15-10-21-v1.gif" />
+            <a href="/pagina/seja-nosso-representante-comercial.html">
+               <img src="https://blog.iluminim.com.br/wp-content/uploads/2022/04/Tarja-topo-atacado-20-04-2022-v2.gif" />
             </a>
          </div>
       </div>`).insertBefore('#cabecalho');
@@ -3861,7 +3861,7 @@ var TodasAsPaginas = {
       this.pontosDeRetirada();
       this.aoFocarNaBusca();
       
-      //this.tarjaGifTopo();
+      this.tarjaGifTopo();
 
       this.acoesWindowScroll();
       this.mensagemCarrinhoVazio();
