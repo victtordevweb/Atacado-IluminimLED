@@ -11332,24 +11332,24 @@
     }
     
     .usuario-deslogado .listagem-item .botao.botao-comprar.principal {
-        width: 100%;
-        height: 42px;
-        padding-top: 9px;
-        background: #ff0000;
-        border-radius: 7px;
-        color: #fff;
-        font-weight: 900;
-        box-sizing: border-box;
-        line-height: 15px;
-        background-image: none !important;
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: all 0.3s;
-        font-size: 0;
-        border: none !important;
-        border-bottom: 3px solid #ad2222 !important;
+		width: 100%;
+		height: 42px;
+		padding-top: 9px;
+		background: #34AF6F;
+		border-radius: 7px;
+		color: #fff;
+		font-weight: 900;
+		box-sizing: border-box;
+		line-height: 15px;
+		background-image: none !important;
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transition: all 0.3s;
+		font-size: 0;
+		border: none !important;
+		border-bottom: 3px solid #25945B !important;
     }
     
     .usuario-deslogado.pagina-inicial .listagem-item .botao.botao-comprar.principal {
