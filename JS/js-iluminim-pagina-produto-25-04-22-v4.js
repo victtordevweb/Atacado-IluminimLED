@@ -672,10 +672,10 @@ var PaginaProduto = {
          $('#descricao .descricao-prod-new').before(html);
          $('#descricao .descricao-prod-new').remove();
       }
+	  
+      if($('#descricao > div.new__description__text:nth-child(2)').length > 0 || $('#descricao > div.new__description__text:nth-child(1)').length > 0){
    
-      if($('#descricao > div.new__description__text:nth-child(2)').length > 0){
-   
-         $('#descricao > p').first().nextUntil('.descricao-conteudo-accordion').wrapAll(`
+         $('#descricao > div.new__description__text').first().nextUntil('.descricao-conteudo-accordion').prev().wrapAll(`
             <div class="descricao-conteudo descricao"></div>
          `);
    
