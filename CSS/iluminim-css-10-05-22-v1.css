@@ -7090,13 +7090,13 @@
     @media screen {
         
         /* PRODUTOS SIMILARES */
-        div#smartfront__app.smartfront__smartfrontapps-produtos-similares a .product-application--name, 
+        /*div#smartfront__app.smartfront__smartfrontapps-produtos-similares a .product-application--name, 
         div#smartfront__app.smartfront__smartfrontapps-produtos-similares a .prices-product--price, 
         div#smartfront__app.smartfront__smartfrontapps-produtos-similares a .prices-product--sale-price, 
         div#smartfront__app.smartfront__smartfrontapps-produtos-similares a .prices-product--installments-product,
         div#smartfront__app.smartfront__smartfrontapps-produtos-similares a .product-application--prices-product .prices-product--price-ticket:before{
             display:none !important;
-        }
+        }*/
 
         div#smartfront__app.smartfront__smartfrontapps-produtos-similares .body-app--product-listing-not-carousel.body-app--products_quantity_line_desktop_4 .content--product-application{
             margin-bottom: 0px !important;
@@ -7112,10 +7112,10 @@
             border-bottom-right-radius: 7px;
         }
 
-        div#smartfront__app.smartfront__smartfrontapps-produtos-similares .content--product-application .product-application--image {
+        /*div#smartfront__app.smartfront__smartfrontapps-produtos-similares .content--product-application .product-application--image {
             height: 90px !important;
             margin-bottom: 0px !important;
-        }
+        }*/
 
         div#smartfront__app.smartfront__smartfrontapps-produtos-similares .content-app--header-app {
             margin-top: 45px;
@@ -7149,6 +7149,41 @@
             font-size: 11px !important;
         }
 
+		@media (max-width: 767px){
+
+			div#smartfront__app.smartfront__smartfrontapps-produtos-similares .content-app--body-app {
+				border: none !important;
+			}
+			
+			html body div#smartfront__app.smartfront__smartfrontapps-ofertas-especiais {
+				margin-top: 51px !important;
+			}
+			
+			html body div#smartfront__app.smartfront__smartfrontapps-produtos-similares {
+				margin-bottom: 10px !important;
+			}
+			
+			div#smartfront__app.smartfront__smartfrontapps-produtos-similares .content-app--header-app {
+				margin-top: 0 !important;
+			}
+
+			body.pagina-produto div#smartfront__app .content--product-application .product-application--prices-product .prices-product--sale-price b {
+				color: #fff !important;
+				font-size: 25px;
+			}
+			
+			body.pagina-produto div#smartfront__app .product-application--prices-product.price-only-logged {
+				padding-bottom: 70px !important;
+			}
+			
+			.usuario-deslogado.pagina-produto div#smartfront__app .content--product-application .content-link--button.button-only-logged {
+				margin: 0 !important;
+				bottom: 3px;
+				width: 95%;
+				margin: -53px auto 6px auto !important;
+			}
+
+		}
 
     }
     
