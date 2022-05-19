@@ -395,7 +395,7 @@ var TodasAsPaginas = {
                                          <div class="icone-loja"><svg width="31" height="29" xmlns="http://www.w3.org/2000/svg" id="Capa_1" enable-background="new 0 0 512 512" viewBox="16 0 480 512"><g><g><g><path d="m286 0v90h30v-90zm135 0h-75v105c0 8.28-6.72 15-15 15h-60c-8.28 0-15-6.72-15-15v-105h-75c-8.28 0-15 6.72-15 15v240c0 8.28 6.72 15 15 15h240c8.28 0 15-6.72 15-15v-240c0-8.28-6.72-15-15-15z"></path></g></g><path d="m16 347v120c0 8.284 6.716 15 15 15h30c8.284 0 15-6.716 15-15v-135h-45c-8.284 0-15 6.716-15 15z"></path><path d="m466 334.62c-7.5 0-14.35 2.75-19.61 7.3l-85.9 80.08h-104.49v-30h85c16.57 0 30-13.43 30-30s-13.43-30-30-30h-70c-19.12-19.12-40.86-30-68.22-30-45.55 0-41.44 29.7-96.78 30v124.8c78.33 10.5 112.44 55.2 175.83 55.2 85.63 0 102.71-30.71 204.59-125.4 5.89-5.48 9.58-13.3 9.58-21.98 0-16.57-13.43-30-30-30z"></path></g></svg></div>
                                          <div class="conteudo-loja">
                                              <div class="titulo-loja-fisica">Retirada em Arujá</div>
-                                             <div class="endereco-loja-fisica"><b>Endereço:</b> Av. Gov. Mário Covas Júnior, 2605, Bairro do Portão, Arujá-SP - 07412-000.</div>
+                                             <div class="endereco-loja-fisica"><b>Endereço:</b> Av. Gov. Mário Covas Júnior, 2605, Centro Industrial Dellapar, Arujá-SP - 07412-000.</div>
                                              <div class="horario-funcionamento-loja-fisica"><b>Horário de funcionamento:</b> Segunda-feira - Sexta-feira (09h às 18hs)</div>
                                          </div>
                                      </li>
