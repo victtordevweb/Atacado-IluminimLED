@@ -1373,6 +1373,33 @@ var PaginaInicial = {
 
    },
 
+   iluminimCorporation(){
+
+		if(!ILUMINIM_UTILS.screen.isDesktop()){
+			return
+		}
+
+		$('div#barraNewsletter').before(`
+			<div class="iluminim-corporation">
+				<div class="conteiner">
+					<div class="iluminim-corporation-conteudo">
+						<div class="iluminim-corporation-textos">
+							<div class="iluminim-corporation-textos-conteudo">
+								<strong>
+									<span>Há mais de 10 anos no mercado</span> 
+									<span>de iluminação LED!</span>
+								</strong>
+								<p>Fundada em 2010, a Iluminim tem como principal objetivo oferecer a melhor solução para os seus clientes na área de iluminação de LED. Com mais de 1.000.000 clientes satisfeitos é a Líder em LEDs do Brasil!</p>
+								<a href="/pagina/sobre-a-iluminim.html">Saiba mais sobre a empresa</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		`);
+
+   },
+
    reposicionarListagens(){
 
       //MAIS VENDIDOS
@@ -1463,6 +1490,7 @@ var PaginaInicial = {
       //this.newsletterMobile();
       //this.naveguePorCategoria();
       this.removerBotaoProdutoAdicionado();
+	  this.iluminimCorporation();
 
 
       this.reposicionarListagens(); //MANTER FINAL
