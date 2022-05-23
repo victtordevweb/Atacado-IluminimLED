@@ -14807,7 +14807,7 @@
     
        .banners-personalizados {
            background: #ff0000;
-           margin-bottom: 27px;
+		   margin-top: 40px;
        }
     
        .banners-personalizados .lista-banners-personalizados.carousel-target {
@@ -14817,7 +14817,7 @@
     
     
        .mini-banners {
-           margin-bottom: 0px;
+           margin-top: 40px;
        }   
        .mini-banners .lista-mini-banners {
            margin: 0;

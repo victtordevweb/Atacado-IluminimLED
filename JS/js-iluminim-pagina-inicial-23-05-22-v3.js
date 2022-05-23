@@ -381,6 +381,79 @@ var PaginaInicial = {
       BlocoTriplo.renderizar();
       
    },
+
+   miniBanners(){
+
+	if(ILUMINIM_UTILS.screen.isMobile()){
+	   return;
+	}
+
+	const MiniBanners = {
+	
+	   gerarObjeto(){
+	
+			 let banners = [
+				{
+				   nome: 'Refletores LED com até 87% de desconto!',
+				   imagem: 'https://cdn.awsli.com.br/930/930730/arquivos/mini-banner-mega-preco-refletores-led-29-03-2022.png',
+				   link: '/refletores-holofotes-led?sort=mais_vendidos',
+				},
+				{
+				   nome: 'Lançamentos LED com até 76% de desconto!',
+				   imagem: 'https://cdn.awsli.com.br/930/930730/arquivos/mini-banner-mega-preco-lancamentos-led-29-03-2022.png',
+				   link: '/lancamentos-led?sort=ultimos_produtos',
+				},
+				{
+				   nome: 'Oferta da Semana com até 78% de desconto',
+				   imagem: 'https://cdn.awsli.com.br/930/930730/arquivos/mini-banner-mega-preco-oferta-da-semana-30-03-2022.png',
+				   link: '/oferta-da-semana?sort=mais_vendidos',
+				}
+			 ]
+
+			 return banners;
+	
+	   },
+	
+	   gerarHTML(){
+	
+			 let objeto = this.gerarObjeto();
+	
+			 let htmlList = objeto.map(banner=> {
+				return `
+				   <li>
+						 <a href="${banner.link}" onclick="ga('send', 'event', 'Wire Mini Home', 'click', 'Mini Banner ${banner.nome}')">
+							<img class="lazyload" alt="${banner.nome}" title="${banner.nome}" src="${banner.imagem}" width="407" height="279">
+						 </a>
+				   </li>
+				`; 
+			 }).join('');
+
+
+			 return `
+				<div class="mini-banners">
+				   <ul class="lista-mini-banners">
+						 ${htmlList}
+				   </ul>
+				</div>
+			 `;
+	
+	   },
+	
+	   renderizar(){
+
+		  let html = this.gerarHTML();
+
+		  $('#listagemProdutos').append(html);
+		  //$('.banners-personalizados').after(html);
+	
+	   }
+	
+	}
+	
+	MiniBanners.renderizar();
+
+ },
+
    
    carrouselBannersPersonalizados(){
 
@@ -459,7 +532,8 @@ var PaginaInicial = {
 	
 			 let html = this.gerarHTML();
 	
-			 $('.bloco-triplo-personalizado').after(html);
+			 $('#listagemProdutos').append(html);
+			 //$('.bloco-triplo-personalizado').after(html);
 
 			 this.ativarCarousel();
 	
@@ -1307,6 +1381,8 @@ var PaginaInicial = {
          .titulo-categoria.borda-principal.cor-principal.vitrine-mas-vendido
       `).appendTo('div#listagemProdutos');
 
+	  this.carrouselBannersPersonalizados();
+
       //REFLETORES
       $(`
          a.titulo-categoria.borda-principal.cor-principal.vitrine-3931472+ul, 
@@ -1318,6 +1394,8 @@ var PaginaInicial = {
          a.titulo-categoria.borda-principal.cor-principal.vitrine-3931398+ul, 
          a.titulo-categoria.borda-principal.cor-principal.vitrine-3931398
       `).appendTo('div#listagemProdutos');
+	
+	   this.miniBanners();
 
       //PLAFON
       $(`
@@ -1355,9 +1433,9 @@ var PaginaInicial = {
 
       this.bannerTarja(); //MANTER ORDEM
 
-      this.blocoTriplo();
+      //this.blocoTriplo();
 
-	  this.carrouselBannersPersonalizados();
+	  //this.carrouselBannersPersonalizados();
 
       ILUMINIM_UTILS.renderizarBotaoVoltarAoTopo();
 
