@@ -24886,21 +24886,20 @@ div#menu-lampada,
 		margin: 0;
 	}
 	
-	.iluminim-corporation {
-		position: relative;
-		overflow: hidden;
-		background-image: url(https://cdn.awsli.com.br/1234/1234739/arquivos/bg-iluminim-corporation-23-05-2022.png);
-		background-repeat: no-repeat;
-		background-position: left bottom;
-		background-size: 100% auto;
-		padding-top: 40px;
-		padding-bottom: 150px;
-	}
-	
 	.iluminim-corporation .conteiner {
 		background: none;
+		padding-left: 60px !important;
+		padding-right: 60px !important;
+		padding-top: 0;
+		padding-bottom: 0;
 	}
 	
+
+	.iluminim-corporation .iluminim-corporation-conteudo {
+		background: url(https://cdn.awsli.com.br/1234/1234739/arquivos/bg-iluminim-corporation-23-05-2022.png) center bottom no-repeat;
+		padding-top: 0px;
+		padding-bottom: 150px;
+	}
 	
 	.iluminim-corporation .iluminim-corporation-textos {
 		width: 450px;
