@@ -1919,6 +1919,7 @@ var TodasAsPaginas = {
                               <li><a href="/pagina/politica-de-compra.html">Política de Compra</a></li>
                               <li><a href="/pagina/politica-de-entrega.html">Política de Entrega</a></li>
                               <li><a href="/pagina/compras-atacado.html">Compras Atacado</a></li>
+							  <li><a href="/pagina/mapa-do-site.html">Mapa do Site</a></li>
                            </ul>
                         </div>
                      </div>
