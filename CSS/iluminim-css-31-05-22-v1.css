@@ -3948,6 +3948,14 @@
             background: #222;
         }
 
+		.usuario-deslogado div#OfertaSemanaCustomizada .listagem-item .acoes-produto.hidden-phone {
+			display: block !important;
+			position: absolute !important;
+			bottom: 6px !important;
+			padding: 0 6px !important;
+		}
+		
+
        @media (min-width: 767px){
                
            .pagina-personalizada-oferta-da-semana .componente.texto-categoria-rodape {
@@ -4005,6 +4013,11 @@
             div#OfertaSemanaCustomizada .listagem-item .info-produto * {
                 text-align: left;
             }
+
+			div#OfertaSemanaCustomizada .listagem-item .info-produto .hide.trustvox-stars {
+				padding: 0 !important;
+				top: 0 !important;
+			}
 
             div#OfertaSemanaCustomizada .listagem-item .info-produto {
                 padding: 0px 10px 0px 10px !important;
@@ -4066,13 +4079,21 @@
             
 
             div#OfertaSemanaCustomizada .listagem-item .imagem-produto {
-                min-width: 130px;
-                max-width: 130px;
-                margin: 15px 0 0 20px!important;
-                max-height: 130px!important;
-                height: 130px !important;
-                min-height: 130px !important;
+				min-width: 130px;
+				max-width: 130px;
+				margin: 15px 0 0 20px!important;
+				max-height: 160px!important;
+				height: 160px !important;
+				min-height: 160px !important;
             }
+
+			.usuario-deslogado.pagina-categoria div#OfertaSemanaCustomizada .listagem-item .acoes-produto {
+				width: calc(100% - 162px) !important;
+				right: 0;
+				padding-right: 30px !important;
+				left: unset;
+				box-sizing: border-box;
+			}
        
            div#OfertaSemanaCustomizada .bloco-categoria--produtos .owl-nav {
                padding: 0;
@@ -18690,7 +18711,7 @@
        }
        
        .banner-cronometro-categoria .banner-cronometro-informacoes .cronometro-categoria-nome-produto span:first-child {
-           font-size: 22px;
+           font-size: 19px;
            font-weight: 800;
            letter-spacing: -1px;
        }
