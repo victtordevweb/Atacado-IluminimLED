@@ -180,29 +180,26 @@ var PaginaProduto = {
          }
       });
 
-
-      
-
       if($('body').hasClass('usuario-deslogado')){
-         
          let verificarDescontoProduto = setInterval(() => {
+			if(window.UserStoreXML && window?.SMARTFRONT?.XML){
+				try {
+					let [result] = window.SMARTFRONT.XML.findProdXML([ILUMINIM_UTILS.produto.sku()]) || [];
 
-            let [result] = window.SMARTFRONT?.XML?.findProdXML([ILUMINIM_UTILS.produto.sku()]) || [];
-
-            if(result){
-
-               setarHTMLDesconto(result.discount_percent);
-
-               clearInterval(verificarDescontoProduto);
-
-            }
-               
+					if(result){
+						setarHTMLDesconto(result.discount_percent);
+						clearInterval(verificarDescontoProduto);
+					}
+				} catch (error) {
+					console.log('verificarDescontoProduto @error ->', error);
+					clearInterval(verificarDescontoProduto);
+				}
+			}
          }, 500);
          
          setTimeout(() => {
             clearInterval(verificarDescontoProduto);
          }, 10000);
-
       }
 
    },
