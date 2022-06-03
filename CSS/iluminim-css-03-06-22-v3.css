@@ -9219,7 +9219,7 @@
     
             div#menu {
                 margin-top: 0;
-                background: var(--cor-principal);
+                background: #a2373a;
             }
     
            div#menu .menu__item a svg {
@@ -9291,7 +9291,7 @@
                height: 100%;
                box-sizing: border-box;
                /*transition: all 0.3s;*/
-               background: var(--cor-principal);
+               background: #a2373a;
                position: relative;
                z-index: 999;
            }
@@ -9302,7 +9302,7 @@
                height: 0;
                border-left: 12px solid transparent;
                border-right: 12px solid transparent;
-               border-top: 10px solid var(--cor-secundaria);
+               border-top: 10px solid #d00b11;
                position: absolute;
                left: calc(50% - 8px);
                bottom: 1px;
@@ -9321,8 +9321,8 @@
            
     
            div#menu .menu__nivel-um > ul > li:hover > a {
-                background: var(--cor-secundaria) !important;
-               /*border-bottom-left-radius: 0 !important;
+                background: #d00b11 !important;
+                /*border-bottom-left-radius: 0 !important;
                border-bottom-right-radius: 0 !important;*/
            }
     
@@ -9335,12 +9335,12 @@
            div#menu .menu__nivel-um > ul > li.menu__item--todos-os-departamentos > .menu__nivel-dois {
                width: 220px;
                border: none !important;
-               background: #f00;
+               background: #d00b11;
            }
     
            div#menu .menu__nivel-um > ul > li.menu__item--todos-os-departamentos > .menu__nivel-dois > ul > li > a {
                padding: 10px 20px;
-               background: #f00;
+               background: #d00b11;
                font-size: 11px;
                text-transform: uppercase;
                color: #fff;
@@ -9441,7 +9441,7 @@
     
            div#menu .menu__nivel-um > ul > li.menu__item--todos-os-departamentos > a {
                justify-content: center;
-               background: #f00 !important;
+               background: #822b2c;
                /*border-top-left-radius: 5px;
                border-bottom-left-radius: 5px;*/
            }
@@ -10134,9 +10134,9 @@
             div#menu .menu__nivel-dois.menu__nivel-dois--todos-os-departamentos > ul {
                 overflow-y: auto;
                 overflow-x: hidden;
-                background: #f00;
+                background: #d00b11;
                 direction: rtl;
-                height: calc(99vh - 316px); 
+                height: calc(99vh - 316px);
                 max-height: 540px;
             }
             
@@ -15992,7 +15992,7 @@
             #cabecalho > .iluminim-backdrop {
                 position: absolute;
                 top: 0px;
-                padding-bottom: 1px;
+                padding-bottom: 0px;
                 z-index: 999999;
                 transition: none!important;
             }
@@ -24905,6 +24905,10 @@ div#menu-lampada,
 
 	#barraNewsletter {
 		margin: 0;
+	}
+	
+	.iluminim-corporation {
+		margin: 0 0 20px 0;
 	}
 	
 	.iluminim-corporation .conteiner {
