@@ -1409,6 +1409,7 @@ var PaginaInicial = {
       `).appendTo('div#listagemProdutos');
 
 	  this.carrouselBannersPersonalizados();
+	  this.miniBanners();
 
       //REFLETORES
       $(`
@@ -1421,8 +1422,6 @@ var PaginaInicial = {
          a.titulo-categoria.borda-principal.cor-principal.vitrine-3931398+ul, 
          a.titulo-categoria.borda-principal.cor-principal.vitrine-3931398
       `).appendTo('div#listagemProdutos');
-	
-	   this.miniBanners();
 
       //PLAFON
       $(`

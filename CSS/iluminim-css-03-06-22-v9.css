@@ -1057,9 +1057,15 @@
     
     }
     
-    :root {
-       --cor-principal: #000; --cor-secundaria: #222; --cor-secundaria-hover: #000;}
+    /*:root {
+       --cor-principal: #000; --cor-secundaria: #222; --cor-secundaria-hover: #000;}*/
     
+	:root {
+		--cor-principal: #a2373a;
+		--cor-secundaria: #d00b11;
+		--cor-secundaria-hover: red;
+	}
+
     /*CSS KEYFRAMES */
     @media screen {
     
@@ -3145,7 +3151,7 @@
     
         
         .pagina-categoria .componente .interno h4 {
-            color: #000;
+            color: var(--cor-principal);
             font-size: 18px !important;
             font-weight: 900;
         }
@@ -8119,7 +8125,7 @@
        .tabela-carrinho .preco-produto .preco-promocional {
            font-size: 20px;
            font-weight: 700;
-           color: var(--cor-secundaria);
+           color: var(--cor-principal);
        }
     
        .carrinho-checkout .tabela-carrinho .preco-produto .preco-promocional {
@@ -8133,6 +8139,7 @@
        .tabela-carrinho .subtotal .titulo {
            font-size: 23px;
            font-weight: 700;
+		   color: var(--cor-principal);
        }
     
        .tabela-carrinho .subtotal span {
@@ -8147,6 +8154,7 @@
            position: relative;
            top: 2px;
            font-weight: 700;
+		   color: var(--cor-principal);
        }
     
        .tabela-carrinho .total span {
@@ -8426,12 +8434,14 @@
        .campos-pedido .tabela-carrinho .subtotal .titulo {
            font-size: 18px;
            font-weight: 600;
+		   color: var(--cor-principal);
        }
     
        .campos-pedido tr.bg-dark.tr-checkout-total strong.titulo.cor-principal.preco-carrinho-total {
            font-size: 26px;
            font-weight: 800;
            white-space: nowrap;
+		   color: var(--cor-principal);
        }
     
        th.padding-preco {
@@ -8445,6 +8455,7 @@
        div#formas-pagamento-wrapper .preco-carrinho-total {
            font-size: 20px;
            font-weight: 700;
+		   color: var(--cor-principal);
        }
     
        div#formas-envio-wrapper .envio-preco {
@@ -9267,6 +9278,10 @@
                line-height: 12px;
                text-align: center;
            }
+
+			#menu .menu__nivel-um > ul > li.menu__item.menu__item--sem-navegacao a.menu__link:after {
+				display: none;
+			}
     
            div#menu .menu__nivel-dois {
                position: absolute;
@@ -10194,7 +10209,7 @@
        }
     
        .menu.lateral .menu__nivel-dois > ul > li.menu__item:not(:last-child) > a {
-           border-bottom: 1px solid #222;
+           border-bottom: 1px solid #842d2f;
        }
     
        .menu.lateral .menu__nivel-dois > ul > li.menu__item:not(:last-child) > a:after {
@@ -10263,7 +10278,7 @@
            position: absolute;
            left: 0;
            display: table;
-           background: #222;
+           background: #842d2f;
        }
     
        .menu.lateral .menu__nivel-dois > ul > li.menu__item > a.menu-open i:before {
@@ -10914,10 +10929,10 @@
            padding: 0px 25px 0px 25px !important;
            align-items: center;
            min-height: 56px;
-           color: var(--cor-secundaria);
+           color: var(--cor-secundaria) !important;
            background: none !important;
        }
-    
+
        .titulo-categoria strong {
            font-family: 'Francois One', sans-serif !important;
            font-weight: 400;
@@ -14017,10 +14032,6 @@
         transition: all 0.3s;
     }
 
-    #rodape .rodape-bloco-redes a img {
-        filter: grayscale(1);
-    }
-
     #rodape .rodape-bloco-redes a:hover {
         opacity: 0.6;
     }
@@ -14051,7 +14062,7 @@
 
     #rodape .conteudo-customizado-rodape+div {
         border: none !important;
-        background: #000 !important;
+        background: var(--cor-principal) !important;
         color: #ffffff;
         padding: 0px 0 10px 0;
     }
@@ -14206,6 +14217,10 @@
         justify-content: center;
     }
 
+	div#tarja-informacoes .bloco-tarja .parte-superior .imagem-tarja img {
+		filter: brightness(0) saturate(100%) invert(23%) sepia(97%) saturate(5699%) hue-rotate(355deg) brightness(96%) contrast(119%);
+	}
+
     div#tarja-informacoes .bloco-tarja .parte-superior .imagem-tarja svg {
         height: 34px;
 
@@ -14225,7 +14240,7 @@
         display: block;
         font-size: 14px;
         font-weight: 700;
-        color: var(--cor-principal);
+        color: #f00;
         line-height: 13px;
         margin-top: 10px;
     }
@@ -17136,6 +17151,7 @@
             #cabecalho .inferior .conta .conteudo-conta-textos.usuario-logado > a {
                 display: block;
                 text-decoration: none;
+				color: var(--cor-secundaria);
             }
      
             #cabecalho .inferior .conta .conteudo-conta-textos.usuario-logado > strong {
@@ -17773,6 +17789,7 @@
             .carrinho-interno-ajax .carrinho-interno li strong.preco-promocional {
                 font-size: 15px;
                 font-weight: 700;
+				color: var(--cor-principal);
             }
      
             .carrinho-interno-ajax .carrinho-interno li a {
@@ -17797,6 +17814,7 @@
             .carrinho-interno-ajax .carrinho-interno .carrinho-rodape span.carrino-total strong {
                 font-size: 20px;
                 font-weight: 700;
+				color: var(--cor-principal);
             }
      
             .carrinho-interno-ajax .carrinho-interno .carrinho-rodape a.botao.principal:hover {
@@ -19003,6 +19021,8 @@
             justify-content: center !important;
             max-width: 80%;
            }
+
+		  
            
            .titulo-categoria .ver-todos {
                background: none;
@@ -19749,7 +19769,7 @@
             #rodape .titulo {
                 color: #fff;
                 margin: 0 !important;
-                border-bottom: 1px solid #222;
+                border-bottom: 1px solid #741e20;
                 padding: 15px 0 15px 0;
                 font-size: 15px;
                 justify-content: space-between !important;
@@ -19777,7 +19797,7 @@
             
         
             #rodape .rodape-bloco-redes a img {
-                filter: grayscale(1);
+                /*filter: grayscale(1);*/
             }
             
             #rodape .pagamento-selos {
@@ -20489,6 +20509,7 @@
                font-size: 13px;
                font-weight: 500;
                border-bottom: 1px solid #ddd !important;
+			   text-align: left;
            }
            
            .filtro-mobile-itens .lateral.outras h4.titulo:after {
@@ -20696,7 +20717,7 @@
                position: absolute;
                height: 3px;
                width: 100%;
-               background: #000;
+               background: var(--cor-secundaria);
                opacity: 1;
                left: 0;
                transition: .25s ease-in-out;
@@ -22004,7 +22025,8 @@
            div#menu .menu__nivel-um > ul > li > a strong span {
                font-size: 8px;
            }
-    
+
+			
     
            #cabecalho .inferior .conta .conteudo-conta-textos {
                font-size: 11px;
@@ -22431,7 +22453,7 @@
            transition: all 0.3s;
            text-align: center;
            padding: 0;
-           background: #222 !important;
+           background: var(--cor-secundaria) !important;
        }
     
        body div#smartfront__app .product-application--tags .tags--tag.tag-discount *{
@@ -22534,7 +22556,7 @@
        body div#smartfront__app .content--product-application .product-application--prices-product .prices-product--sale-price {
            font-size: 22px;
            font-weight: 800;
-           color: #222 !important;
+           color: var(--cor-secundaria) !important;
        }
     
        body div#smartfront__app .content--product-application .product-application--prices-product .prices-product--sale-price b {
@@ -22606,7 +22628,7 @@
        body div#smartfront__app .content--product-application .product-application--prices-product .prices-product--installments-product .installments-product--quantity,
        body div#smartfront__app .content--product-application .product-application--prices-product .prices-product--installments-product .installments-product--price {
            font-weight: 700;
-           color: #222 !important;
+           color: var(--cor-secundaria) !important;
        }
        
        body div#smartfront__app .content--product-application * {
@@ -22662,7 +22684,7 @@
        body div#smartfront__app .body-app--product-listing-carousel .owl-nav i {
            cursor: pointer;
            width: 44px;
-           background: #222;
+           background: var(--cor-secundaria);
            border-radius: 100%;
            box-shadow: 1px 1px 20px -10px rgb(17 17 17 / 48%);
            height: 44px;
@@ -22713,7 +22735,7 @@
        
        body div#smartfront__app .body-app--product-listing-carousel .owl-nav > *:not(.disabled):hover i {
            opacity: 1;
-           background: #000;
+           background: var(--cor-secundaria-hover);
        }
     
     }
@@ -24287,7 +24309,7 @@ div#menu-lampada,
         font-size: 21px;
         letter-spacing: -.5px;
         margin: 0;
-        color: #222;
+        color: var(--cor-secundaria);
         padding: 13px 0px;
         display: block;
         transition: all 0.3s;
@@ -24298,7 +24320,7 @@ div#menu-lampada,
         text-align: center;
         border-bottom: 1px solid #ddd;
         cursor: pointer;
-        border-top: 2px solid #222 !important;
+        border-top: 2px solid var(--cor-secundaria) !important;
         position: relative;
     }
     
@@ -24335,11 +24357,11 @@ div#menu-lampada,
     }
     
     .blocos-dinamicos-em-abas .blocos-dinamicos-abas > *:not(.aba-ativa) span {
-        color: #9f9f9f;
+        color: #444;
     }
     
     .blocos-dinamicos-em-abas .blocos-dinamicos-abas > *:not(.aba-ativa):hover span {
-        color: #707070;
+        color: var(--cor-secundaria);
     }
 
     .blocos-dinamicos-abas-conteudo {
@@ -24415,13 +24437,13 @@ div#menu-lampada,
         display: block !important;
     }
     
-    .blocos-dinamicos-em-abas  div#smartfront__app .content--product-application .product-application--prices-product .prices-product--sale-price {
-        color: #222 !important;
+    .blocos-dinamicos-em-abas div#smartfront__app .content--product-application .product-application--prices-product .prices-product--sale-price {
+        color: var(--cor-secundaria) !important;
     }
     
     .blocos-dinamicos-em-abas  div#smartfront__app .content--product-application .product-application--prices-product .prices-product--installments-product .installments-product--quantity, 
     .blocos-dinamicos-em-abas  div#smartfront__app .content--product-application .product-application--prices-product .prices-product--installments-product .installments-product--price {
-        color: #222 !important;
+        color: var(--cor-secundaria) !important;
     }
     
     .blocos-dinamicos-em-abas div#smartfront__app.smartfrontapps-compre-junto .body-app--product-primary.body-app--accessed-product {
@@ -24433,20 +24455,20 @@ div#menu-lampada,
     }
 
     .blocos-dinamicos-em-abas div#smartfront__app.smartfrontapps-compre-junto .body-app--info-app .info-app-prices--save-money {
-        color: #222 !important;
+        color: var(--cor-secundaria) !important;
     }
     
     .blocos-dinamicos-em-abas div#smartfront__app.smartfrontapps-compre-junto .total-price--price {
-        color: #000 !important;
+        color: var(--cor-principal) !important;
     }
     
-    body div#smartfront__app .content-app--header-app {
+    /*body div#smartfront__app .content-app--header-app {
         border-top-color: #000 !important;
-    }
+    }*/
 
-    body div#smartfront__app .content-app--header-app .header-app--title {
+    /*body div#smartfront__app .content-app--header-app .header-app--title {
         color: #000 !important;
-    }
+    }*/
 
     .blocos-dinamicos-abas.aba-unitaria .bloco-dinamico-aba span {
         text-align: left;
@@ -24751,7 +24773,7 @@ div#menu-lampada,
         }
 
         #rodape .rodape-bloco-selos-de-seguranca {
-            background: #000 !important;
+            background: #f0f0f0 !important;
         }
 
         div#OfertaSemanaCustomizada .bloco-produtos-titulo {
@@ -24814,7 +24836,7 @@ div#menu-lampada,
         html body.usuario-logado div#listagemProdutos .listagem-item.produto-adicionar-direto-carrinho {
             padding-bottom: 27px !important;
             min-height: auto;
-            min-height: 370px;
+            min-height: 390px;
         }
         
         .listagem-item.indisponivel .produto-avise .avise-me-list {
