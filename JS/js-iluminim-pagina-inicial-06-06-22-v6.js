@@ -1400,15 +1400,6 @@ var PaginaInicial = {
 
    },
 
-	ordenacaoProdutosListagemMaisVendidos(){
-		$(document).ready(function(){
-			$('a.titulo-categoria.borda-principal.cor-principal.vitrine-17540814+ul .listagem-item.prod-id-48396547').closest('.owl-item').appendTo($('a.titulo-categoria.borda-principal.cor-principal.vitrine-17540814+ul .owl-stage'));
-			$('a.titulo-categoria.borda-principal.cor-principal.vitrine-17540814+ul .listagem-item.prod-id-48396526').closest('.owl-item').appendTo($('a.titulo-categoria.borda-principal.cor-principal.vitrine-17540814+ul .owl-stage'));
-			$('a.titulo-categoria.borda-principal.cor-principal.vitrine-17540814+ul .listagem-item.prod-id-48396536').closest('.owl-item').appendTo($('a.titulo-categoria.borda-principal.cor-principal.vitrine-17540814+ul .owl-stage'));
-			$('a.titulo-categoria.borda-principal.cor-principal.vitrine-17540814+ul .listagem-item.prod-id-48396524').closest('.owl-item').appendTo($('a.titulo-categoria.borda-principal.cor-principal.vitrine-17540814+ul .owl-stage'));
-		});
-	},
-
    	reposicionarListagens(){
 
 		//MAIS VENDIDOS
@@ -1504,7 +1495,6 @@ var PaginaInicial = {
       //this.naveguePorCategoria();
       this.removerBotaoProdutoAdicionado();
 	  this.iluminimCorporation();
-	  this.ordenacaoProdutosListagemMaisVendidos();
 
 
       this.reposicionarListagens(); //MANTER FINAL

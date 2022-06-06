@@ -2430,6 +2430,13 @@ var TodasAsPaginas = {
       });
 
    },
+   
+   	ordenacaoProdutosListagemMaisVendidos(){
+		$('a.titulo-categoria.borda-principal.cor-principal.vitrine-17540814+ul .listagem-item.prod-id-48396547').closest('.span3').appendTo($('a.titulo-categoria.borda-principal.cor-principal.vitrine-17540814+ul .listagem-produtos'));
+		$('a.titulo-categoria.borda-principal.cor-principal.vitrine-17540814+ul .listagem-item.prod-id-48396526').closest('.span3').appendTo($('a.titulo-categoria.borda-principal.cor-principal.vitrine-17540814+ul .listagem-produtos'));
+		$('a.titulo-categoria.borda-principal.cor-principal.vitrine-17540814+ul .listagem-item.prod-id-48396536').closest('.span3').appendTo($('a.titulo-categoria.borda-principal.cor-principal.vitrine-17540814+ul .listagem-produtos'));
+		$('a.titulo-categoria.borda-principal.cor-principal.vitrine-17540814+ul .listagem-item.prod-id-48396524').closest('.span3').appendTo($('a.titulo-categoria.borda-principal.cor-principal.vitrine-17540814+ul .listagem-produtos'));
+	},
 
    carouselCustomListagem() { //COLOCANDO OWL CAROUSEL NAS LISTAGEM
 
@@ -2452,6 +2459,10 @@ var TodasAsPaginas = {
       /*$('.pagina-inicial div#listagemProdutos ul').each(function(){
          $(this).replaceWith(`<ul data-produtos-linha="4" class="carousel-target">${$(this).html()}</ul>`);
       });*/
+
+	  if(ILUMINIM_UTILS.pagina.isHome()){
+		  this.ordenacaoProdutosListagemMaisVendidos();
+	  }
 
       $('.pagina-inicial div#listagemProdutos .carousel-target').owlCarousel({
          loop: false,
