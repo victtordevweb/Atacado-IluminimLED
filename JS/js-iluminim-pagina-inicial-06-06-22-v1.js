@@ -1400,58 +1400,58 @@ var PaginaInicial = {
 
    },
 
-   reposicionarListagens(){
+   	reposicionarListagens(){
 
-      //MAIS VENDIDOS
-      $(`
-         .titulo-categoria.borda-principal.cor-principal.vitrine-mas-vendido+ul, 
-         .titulo-categoria.borda-principal.cor-principal.vitrine-mas-vendido
-      `).appendTo('div#listagemProdutos');
+		//MAIS VENDIDOS
+		$(`
+			.titulo-categoria.borda-principal.cor-principal.vitrine-mas-vendido+ul, 
+			.titulo-categoria.borda-principal.cor-principal.vitrine-mas-vendido
+		`).appendTo('div#listagemProdutos');
 
-	  this.carrouselBannersPersonalizados();
-	  this.miniBanners();
+		this.carrouselBannersPersonalizados();
+		this.miniBanners();
 
-      //REFLETORES
-      $(`
-         a.titulo-categoria.borda-principal.cor-principal.vitrine-3931472+ul, 
-         a.titulo-categoria.borda-principal.cor-principal.vitrine-3931472
-      `).appendTo('div#listagemProdutos');
+		//PLAFON
+			$(`
+			a.titulo-categoria.borda-principal.cor-principal.vitrine-3931442+ul, 
+			a.titulo-categoria.borda-principal.cor-principal.vitrine-3931442
+		`).appendTo('div#listagemProdutos');
 
-      //LAMPADAS TUBULAR
-      $(`
-         a.titulo-categoria.borda-principal.cor-principal.vitrine-3931398+ul, 
-         a.titulo-categoria.borda-principal.cor-principal.vitrine-3931398
-      `).appendTo('div#listagemProdutos');
+		//LAMPADA BULBO
+		$(`
+			a.titulo-categoria.borda-principal.cor-principal.vitrine-3931436+ul, 
+			a.titulo-categoria.borda-principal.cor-principal.vitrine-3931436
+		`).appendTo('div#listagemProdutos');
 
-      //PLAFON
-      $(`
-         a.titulo-categoria.borda-principal.cor-principal.vitrine-3931442+ul, 
-         a.titulo-categoria.borda-principal.cor-principal.vitrine-3931442
-      `).appendTo('div#listagemProdutos');
+		//REFLETORES
+		$(`
+			a.titulo-categoria.borda-principal.cor-principal.vitrine-3931472+ul, 
+			a.titulo-categoria.borda-principal.cor-principal.vitrine-3931472
+		`).appendTo('div#listagemProdutos');
 
-      //LANÇAMENTOS
-      $(`
-         a.titulo-categoria.borda-principal.cor-principal.vitrine-3931421+ul, 
-         a.titulo-categoria.borda-principal.cor-principal.vitrine-3931421
-      `).appendTo('div#listagemProdutos');
+		//LANÇAMENTOS
+		/*$(`
+			a.titulo-categoria.borda-principal.cor-principal.vitrine-3931421+ul, 
+			a.titulo-categoria.borda-principal.cor-principal.vitrine-3931421
+		`).appendTo('div#listagemProdutos');*/
 
-      //ARANDELAS LED
-      $(`
-         a.titulo-categoria.borda-principal.cor-principal.vitrine-3931363+ul, 
-         a.titulo-categoria.borda-principal.cor-principal.vitrine-3931363
-      `).appendTo('div#listagemProdutos');
-   
-      //FITA LED
-      $(`
-         a.titulo-categoria.borda-principal.cor-principal.vitrine-3931377+ul, 
-         a.titulo-categoria.borda-principal.cor-principal.vitrine-3931377
-      `).appendTo('div#listagemProdutos');
+		//ARANDELAS LED
+		/*$(`
+			a.titulo-categoria.borda-principal.cor-principal.vitrine-3931363+ul, 
+			a.titulo-categoria.borda-principal.cor-principal.vitrine-3931363
+		`).appendTo('div#listagemProdutos');*/
+	
+		//FITA LED
+		/*$(`
+			a.titulo-categoria.borda-principal.cor-principal.vitrine-3931377+ul, 
+			a.titulo-categoria.borda-principal.cor-principal.vitrine-3931377
+		`).appendTo('div#listagemProdutos');*/
 
-      //ACESSÓRIOS LED
-      $(`
-         a.titulo-categoria.borda-principal.cor-principal.vitrine-3931356+ul, 
-         a.titulo-categoria.borda-principal.cor-principal.vitrine-3931356
-      `).appendTo('div#listagemProdutos');
+		//ACESSÓRIOS LED
+		/*$(`
+			a.titulo-categoria.borda-principal.cor-principal.vitrine-3931356+ul, 
+			a.titulo-categoria.borda-principal.cor-principal.vitrine-3931356
+		`).appendTo('div#listagemProdutos');*/
 
    },
 

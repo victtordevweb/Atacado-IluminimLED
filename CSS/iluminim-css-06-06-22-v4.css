@@ -9279,6 +9279,14 @@
                text-align: center;
            }
 
+		    div#menu .menu__nivel-um > ul > li:not(:first-child):not(:last-child) span {
+				display: unset;
+			}
+
+			div#menu .menu__nivel-um > ul > li:not(:first-child):not(:last-child) strong {
+				text-align: center;
+			}
+
 			#menu .menu__nivel-um > ul > li.menu__item.menu__item--sem-navegacao a.menu__link:after {
 				display: none;
 			}
@@ -10152,7 +10160,7 @@
                 background: #d00b11;
                 direction: rtl;
                 height: calc(99vh - 316px);
-                max-height: 540px;
+                max-height: 405px;
             }
             
             
@@ -24943,13 +24951,35 @@ div#menu-lampada,
 	
 
 	.iluminim-corporation .iluminim-corporation-conteudo {
-		background: url(https://cdn.awsli.com.br/1234/1234739/arquivos/bg-iluminim-corporation-23-05-2022.png) center bottom no-repeat;
+		background: url(https://cdn.awsli.com.br/1234/1234739/arquivos/bg-corporation-atacado-06-06-2022.png) center bottom no-repeat;
 		padding-top: 0px;
 		padding-bottom: 150px;
+		overflow: hidden;
 	}
 	
 	.iluminim-corporation .iluminim-corporation-textos {
 		width: 450px;
+		background: #fff;
+		padding: 0px 50px 60px 0;
+		border-bottom-right-radius: 50px;
+		position: relative;
+	}
+
+	.iluminim-corporation .iluminim-corporation-textos-conteudo {
+		position: relative;
+		z-index: 9;
+	}
+
+	.iluminim-corporation-textos:after {
+		width: 310px;
+		height: 419px;
+		content: "";
+		position: absolute;
+		right: -81px;
+		top: -180px;
+		background: #ffffff;
+		border-radius: 37px;
+		transform: rotate(25deg);
 	}
 	
 	.iluminim-corporation .iluminim-corporation-textos strong {
