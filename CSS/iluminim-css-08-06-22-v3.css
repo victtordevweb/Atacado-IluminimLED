@@ -1954,14 +1954,17 @@
        }
        
        div#allDepartment .block-categories-into.one.span12 {
-           margin-bottom: 60px;
+		margin-bottom: 40px;
+		display: flex;
+		gap: 15px;
        }
        div#allDepartment .block-categories-into.two.span12 {
            margin-left: 0;
        }
        div#allDepartment .block-categories-into .span4 {
            background: #f0f0f0;
-           height: 500px;
+           padding: 0 0 20px 0;
+		   margin: 0;
        }
        div#allDepartment .block-categories-into h4 {
            text-align: center;
@@ -1972,7 +1975,7 @@
            letter-spacing: -1px;
        }
        div#allDepartment .block-categories-into h4>a {
-           font-size: 28px;
+           font-size: 25px;
            color: var(--cor-secundaria);
            text-decoration: none;
        }
@@ -2382,6 +2385,7 @@
            /*/ AJUSTE MARGIN /*/
            div#allDepartment .block-categories-into.one.span12 {
                margin-bottom: 10px;
+			   display: block;
            }
            div#allDepartment .block-categories.span12 {
                margin-bottom: 20px !important;
@@ -10160,7 +10164,7 @@
                 background: #d00b11;
                 direction: rtl;
                 height: calc(99vh - 316px);
-                max-height: 360px;
+                max-height: 315px;
             }
             
             

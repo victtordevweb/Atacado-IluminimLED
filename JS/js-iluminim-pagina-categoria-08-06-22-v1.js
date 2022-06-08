@@ -29,64 +29,22 @@ var PaginaCategoria = {
                               <div class="span4">
                                     <h4><a href="/refletores-holofotes-led?sort=mais_vendidos">Refletores LED</a></h4>
                                     <img src="https://cdn.awsli.com.br/257/257163/arquivos/bloco-destaque-refletores-alldepartment.png" alt="">
-                                    <ul>
-                                       <li><a href="/refletor-micro-led-slim?sort=mais_vendidos"><i class="icon-chevron-right"></i> Refletor MicroLED Slim</a></li>
-                                       <li><a href="/refletor-micro-led-ultra-thin?sort=mais_vendidos"><i class="icon-chevron-right"></i> Refletor MicroLED Ultra Thin</a></li>
-                                       <li><a href="/refletor-led-modular?sort=mais_vendidos"><i class="icon-chevron-right"></i> Refletor MicroLED Multifocal</a></li>
-                                       <li><a href="/mini-refletor-led?sort=mais_vendidos"><i class="icon-chevron-right"></i> Refletor LED Mini</a></li>
-                                    </ul>
                               </div>
                               <div class="span4">
                                     <h4><a href="/luminarias-plafons-led?sort=mais_vendidos">Luminárias LED</a></h4>
                                     <img src="https://cdn.awsli.com.br/257/257163/arquivos/bloco-destaque-luminarias-alldepartment.png" alt="">
-                                    <ul>
-                                       <li><a href="/plafon-led?sort=mais_vendidos"><i class="icon-chevron-right"></i> Luminária Plafon LED</a></li>
-                                       <li><a href="/pendente?sort=mais_vendidos"><i class="icon-chevron-right"></i> Pendentes</a></li>
-                                       <li><a href="/arandela-led?sort=mais_vendidos"><i class="icon-chevron-right"></i> Arandelas</a></li>
-                                       <li><a href="/luminarias-publicas-led?sort=mais_vendidos"><i class="icon-chevron-right"></i> Luminárias Públicas LED</a></li>
-                                    </ul>
                               </div>
                               <div class="span4">
                                     <h4><a href="/spot-led?sort=mais_vendidos">Spots LED</a></h4>
                                     <img src="https://cdn.awsli.com.br/257/257163/arquivos/bloco-destaque-spots-alldepartment.png" alt="">
-                                    <ul>
-                                       <li><a href="/spot-dicroica-led-quadrado?sort=mais_vendidos"><i class="icon-chevron-right"></i> Spot LED Quadrado</a></li>
-                                       <li><a href="/spot-dicroica-led-redondo?sort=mais_vendidos"><i class="icon-chevron-right"></i> Spot LED Redondo</a></li>
-                                       <li><a href="/spot-led-trilho-eletrificado?sort=mais_vendidos"><i class="icon-chevron-right"></i> Spot LED para Trilho Eletrificado</a></li>
-                                       <li><a href="/balizador-led?sort=mais_vendidos"><i class="icon-chevron-right"></i> Balizador LED</a></li>
-                                    </ul>
                               </div>
-                           </div>
-                           <div class="block-categories-into two span12">
-                              <div class="span4">
+							  <div class="span4">
                                     <h4><a href="/fita-de-led?sort=mais_vendidos">Fitas LED</a></h4>
                                     <img src="https://cdn.awsli.com.br/257/257163/arquivos/bloco-destaque-fitas-alldepartment.png" alt="">
-                                    <ul>
-                                       <li><a href="/fita-led-rgb?sort=mais_vendidos"><i class="icon-chevron-right"></i> Fita LED RGB</a></li>
-                                       <li><a href="/fita-led-branco-frio?sort=mais_vendidos"><i class="icon-chevron-right"></i> Fita LED Branco Frio</a></li>
-                                       <li><a href="/fita-led-branco-quente?sort=mais_vendidos"><i class="icon-chevron-right"></i> Fita LED Branco Quente</a></li>
-                                       <li><a href="/mangueiras-led?sort=mais_vendidos"><i class="icon-chevron-right"></i> Mangueira LED</a></li>
-                                    </ul>
                               </div>
                               <div class="span4">
                                     <h4><a href="/lampadas-led?sort=mais_vendidos">Lâmpadas LED</a></h4>
                                     <img src="https://cdn.awsli.com.br/257/257163/arquivos/bloco-destaque-lampadas-alldepartment.png" alt="">
-                                    <ul>
-                                       <li><a href="/lampada-led-tubular?sort=mais_vendidos"><i class="icon-chevron-right"></i> Lâmpada LED Tubular</a></li>
-                                       <li><a href="/lampada-led-bulbo?sort=mais_vendidos"><i class="icon-chevron-right"></i> Lâmpada LED Bulbo</a></li>
-                                       <li><a href="/led-retro?sort=mais_vendidos"><i class="icon-chevron-right"></i> Lâmpada LED Vintage</a></li>
-                                       <li><a href="/lampada-led-alta-potencia?sort=mais_vendidos"><i class="icon-chevron-right"></i> Lâmpada LED Alta Potência</a></li>
-                                    </ul>
-                              </div>
-                              <div class="span4">
-                                    <h4><a href="/acessorios-para-leds?sort=mais_vendidos">Acessórios LED</a></h4>
-                                    <img src="https://cdn.awsli.com.br/257/257163/arquivos/bloco-destaque-acessorios-alldepartment.png" alt="">
-                                    <ul>
-                                       <li><a href="/fonte-convencional?sort=mais_vendidos"><i class="icon-chevron-right"></i> Fontes para Câmeras e Fitas</a></li>
-                                       <li><a href="/driver-refletor-led?sort=mais_vendidos"><i class="icon-chevron-right"></i> Drivers para Plafons e Refletores</a></li>
-                                       <li><a href="/emendas-led?sort=mais_vendidos"><i class="icon-chevron-right"></i> Emendas para Fita e Spot Trilho</a></li>
-                                       <li><a href="/soquete-led?sort=mais_vendidos"><i class="icon-chevron-right"></i> Soquetes para Lâmpadas</a></li>
-                                    </ul>
                               </div>
                            </div>
                         </div>
