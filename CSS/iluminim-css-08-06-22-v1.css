@@ -21716,10 +21716,14 @@
            padding: 8px 18px 6px 18px !important;
            font-weight: 700;
            font-family: 'Roboto' !important;
-           font-size: 14px !important;
+           font-size: 12px !important;
            border-bottom: 3px solid #25945B;
            background: #34AF6F !important;
        }
+	   
+	   div#smartfront__app.smartfront__smartfrontapps-oferta-limitada-na-categoria .content--product-application .product-application--name:after {
+			display: none;
+		}
     
        div#smartfront__app.smartfront__smartfrontapps-oferta-limitada-na-categoria .content--product-application .product-application--button-view-more .content-link--button:hover {
            background: #25945B !important;
