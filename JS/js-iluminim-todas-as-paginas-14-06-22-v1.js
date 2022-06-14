@@ -3793,7 +3793,7 @@ var TodasAsPaginas = {
       }
 
       $(`<div id="tarja_topo">
-         <div class="container">
+         <div class="conteiner">
             <a href="/pagina/seja-nosso-representante-comercial.html">
                <img src="https://blog.iluminim.com.br/wp-content/uploads/2022/04/Tarja-topo-atacado-20-04-2022-v2.gif" />
             </a>
