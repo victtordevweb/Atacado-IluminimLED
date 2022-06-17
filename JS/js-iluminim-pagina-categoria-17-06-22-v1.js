@@ -316,18 +316,18 @@ var PaginaCategoria = {
                               imagem: 'https://cdn.awsli.com.br/257/257163/arquivos/banner-ods-27-12-21-pendentes-led.png',
                               nome: 'Pendentes LED'                    
                            },
-                           {
+                           /*{
                               url: '/lustre?sort=mais_vendidos',
                               //imagem: '', NÃO TEMOS A IMAGEM ORIGINAL, PRECISAMOS DESENVOLVER
                               imagem: 'https://cdn.awsli.com.br/257/257163/arquivos/banner-ods-27-12-21-lustres-led.png',
                               nome: 'Lustres LED'                    
-                           },
-                           {
+                           },*/
+                           /*{
                               url: '/oferta-da-semana-acessorios-led?sort=mais_vendidos',
                               imagem: 'https://cdn.awsli.com.br/257/257163/arquivos/banner-ods-27-12-21-acessorios-led.png',
                               //imagem: 'https://cdn.awsli.com.br/930/930730/arquivos/Banner_vertical_ACESSORIOS_led_friday_6.0-22-10-21.png',
                               nome: 'Acessórios LED'
-                           },
+                           },*/
                            {
                               url: '/lancamentos-led?sort=ultimos_produtos',
                               imagem: 'https://cdn.awsli.com.br/257/257163/arquivos/banner-ods-27-12-21-lancamentos-led.png',
