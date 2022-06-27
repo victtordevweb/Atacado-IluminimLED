@@ -3756,8 +3756,8 @@
             text-transform: uppercase;
             margin: 0 0 11px 0;
             padding: 0;
-            border-bottom: 1px solid #eaeaea;
-            margin-right: -35px;
+            /*border-bottom: 1px solid #eaeaea;*/
+            margin-right: -48px;
             color: #fff;
             font-weight: 700;
             letter-spacing: -0.5px;
@@ -3863,7 +3863,7 @@
        .pagina-personalizada-oferta-da-semana .banner.cheio .progress-countdown {
         position: absolute;
         height: 8.5%;
-        bottom: 21.7%;
+        bottom: 22.8%;
         padding: 0 8.6% 0 8.6%;
        }
        
@@ -3873,7 +3873,7 @@
     
        .pagina-personalizada-oferta-da-semana .banner.cheio .slides .cronometro-banner {
            position: absolute;
-           bottom: 34.8%;
+           bottom: 35.8%;
            width: 100%;
            padding: 0 0 0 48%;
            box-sizing: border-box;
