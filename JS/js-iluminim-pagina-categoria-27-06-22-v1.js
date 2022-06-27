@@ -4167,12 +4167,12 @@ var PaginaCategoria = {
       ILUMINIM_UTILS.ajustePaginacao();
       ILUMINIM_UTILS.verificarFiltrosAtivo();
       //ILUMINIM_UTILS.adicionaTextoModalCompraSegura();
-      ILUMINIM_UTILS.adicionarBlocoLateralNaoEncontrouOqueProcurava();
+      //ILUMINIM_UTILS.adicionarBlocoLateralNaoEncontrouOqueProcurava();
       ILUMINIM_UTILS.adaptacaoFiltroMobile();
 
       this.cronometroCategoria();
       this.moverTextoCategoria();
-      this.adicionarFiltroPrecoPersonalizado();
+      //this.adicionarFiltroPrecoPersonalizado();
       this.verificarCategoriaAtiva();
       //this.postsBlog();
       this.reviewsQuemComprou();

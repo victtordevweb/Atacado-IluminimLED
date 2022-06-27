@@ -6,11 +6,11 @@ var PaginaInicial = {
          return;
       }
 
-      let target = $('.secao-banners .banner.cheio img[alt="Banner Chamada Campanha - @gif"]');
+      let target = $('.secao-banners .banner.cheio img[alt="Banner Campanha Chamada @DESKTOP"]');
 
       if(target.length > 0){
 
-         let bannerChamada = 'https://blog.iluminim.com.br/wp-content/uploads/2021/10/LED-OFERTAS-PRECOS-IMBATIVEIS-Banner-Principal_15-10-2021-v1.gif';
+         let bannerChamada = 'https://blog.iluminim.com.br/wp-content/uploads/2022/06/CHAMADA-ATACADO-DESKTOP.gif';
          target.attr('src', bannerChamada);
 
       }
@@ -1470,7 +1470,7 @@ var PaginaInicial = {
 
       ILUMINIM_UTILS.renderizarBotaoVoltarAoTopo();
 
-      //this.bannerChamadaDesktop();
+      this.bannerChamadaDesktop();
       //this.bannerChamadaMobile();
 
       this.tagLancamentoListagemProduto();

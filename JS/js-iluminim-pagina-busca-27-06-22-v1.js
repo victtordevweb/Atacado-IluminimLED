@@ -114,7 +114,7 @@ const PaginaBusca = {
          ILUMINIM_UTILS.adicionarFiltroLancamentos();
          ILUMINIM_UTILS.verificarFiltrosAtivo();
          ILUMINIM_UTILS.ajustePaginacao();
-         ILUMINIM_UTILS.adicionarBlocoLateralNaoEncontrouOqueProcurava();
+         //ILUMINIM_UTILS.adicionarBlocoLateralNaoEncontrouOqueProcurava();
          ILUMINIM_UTILS.adaptacaoFiltroMobile();
 
       }
