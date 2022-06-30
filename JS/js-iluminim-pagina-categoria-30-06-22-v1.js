@@ -3409,7 +3409,7 @@ var PaginaCategoria = {
                      ],
                   },
 
-                  {
+                  /*{
                      categorias: ['/fita-de-led'],
                      navegacao: [
                            [
@@ -3485,7 +3485,7 @@ var PaginaCategoria = {
                               },
                            ],
                      ],
-                  },
+                  },*/
 
                   {
                      categorias: ['/lustre', '/lustre-pendente', '/lustre-cristal', '/lustre-plafon', '/lustre-candelabro', '/lustre-classico', '/lustre-industrial', '/lustre-de-parede'],
