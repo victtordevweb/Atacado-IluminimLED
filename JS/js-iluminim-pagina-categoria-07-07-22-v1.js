@@ -4180,7 +4180,7 @@ var PaginaCategoria = {
       this.pesquisasEmAlta();
       this.avalicoesTrustVoxCategoria();
       this.videoCategoria();
-      this.navegacaoCategoria();
+      //this.navegacaoCategoria();
       this.dropDownTextoCategoria();
       this.textosRodapeCategoria();
       this.duploVideo();
